@@ -1,30 +1,16 @@
-import TranslationButtons from "./TranslationButtons";
+import Button from "./Button";
 
+// this is the file that holds all the buttons for the home page
 function Buttons() {
   return (
     <>
-      <TranslationButtons
-        name={"japji sahib (gurmuki)"}
-        pageLink={"#"}
-        subText={"japji sahib in pure Punjabi Gurmuki"}
-      />
-      <TranslationButtons
-        name={"japji sahib (english)"}
-        pageLink={"#"}
-        subText={"japji sahib"}
-      />
-      <TranslationButtons
-        name={"japji sahib (english with meaning)"}
-        pageLink={"#"}
-        subText={"japji sahib"}
-      />
-
-      <TranslationButtons name={"reahaas sahib (in gurmuki)"} pageLink={"#"} />
-      <TranslationButtons name={"reahaas sahib (in english)"} pageLink={"#"} />
-      <TranslationButtons
-        name={"reahaas sahib (in english with meaning)"}
-        pageLink={"#"}
-      />
+      <Button name={"Prayers"} pageLink={"#"} />
+      <Button name={"sikhism"} pageLink={"#"} />
+      <Button name={"sikh gurus"} pageLink={"#"} />
+      <Button name={"sikh calendar"} pageLink={"#"} />
+      <Button name={"sikh calendar"} pageLink={"#"} />
+      <Button name={"sikh calendar"} pageLink={"#"} />
+      <Button name={"sikh calendar"} pageLink={"#"} />
     </>
   );
 }

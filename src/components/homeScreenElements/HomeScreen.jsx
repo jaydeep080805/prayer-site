@@ -1,9 +1,13 @@
-import Buttons from "./Buttons";
+import Button from "./Buttons";
 
 function HomeScreen() {
   return (
-    <div className="mt-5 capitalize font-main flex flex-col gap-5 md:grid md:grid-cols-3 md:text-center">
-      <Buttons />
+    <div className="flex justify-center">
+      <div className="w-[80rem]">
+        <div className="mt-5 capitalize font-main flex flex-col items-center gap-5 md:flex-row md:flex-wrap md:justify-center md:text-center">
+          <Button />
+        </div>
+      </div>
     </div>
   );
 }
