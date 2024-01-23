@@ -3,7 +3,11 @@ import TranslationSelectionButtons from "./TranslationSelectionButtons";
 
 function TranslationSelectionPage() {
   // passes through all the buttons to the button structure to reduce repetitiveness
-  return <ButtonStructure buttons={<TranslationSelectionButtons />} />;
+  return (
+    <div className="h-screen">
+      <ButtonStructure buttons={<TranslationSelectionButtons />} />;
+    </div>
+  );
 }
 
 export default TranslationSelectionPage;

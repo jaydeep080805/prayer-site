@@ -6,10 +6,10 @@ import SearchIcon from "./SearchIcon";
 function Menu() {
   return (
     <div className="flex items-center gap-10 capitalize text-xl">
-      <MenuItem name={"Japuji sahib"} />
-      <MenuItem name={"raehraas sahib"} />
-      <MenuItem name={"ardaas"} />
-      <MenuItem name={"sohilaa"} />
+      <MenuItem pageLink={"./japjiSahib"} name={"Japuji sahib"} />
+      <MenuItem pageLink={""} name={"raehraas sahib"} />
+      <MenuItem pageLink={""} name={"ardaas"} />
+      <MenuItem pageLink={""} name={"sohilaa"} />
       <SearchIcon />
     </div>
   );

@@ -3,17 +3,17 @@ import Button from "../components/Button";
 function TranslationSelectionButtons() {
   return (
     <>
-      <Button to={"#"} name={"japji sahib"} />
-      <Button to={"#"} name={"raehraas sahib"} />
-      <Button to={"#"} name={"sohilla"} />
+      <Button pageLink={"/japjiSahib"} name={"japji sahib"} />
+      <Button pageLink={"#"} name={"raehraas sahib"} />
+      <Button pageLink={"#"} name={"sohilla"} />
 
-      <Button to={"#"} name={"japji sahib"} />
-      <Button to={"#"} name={"raehraas sahib"} />
-      <Button to={"#"} name={"sohilla"} />
+      <Button pageLink={"#"} name={"japji sahib"} />
+      <Button pageLink={"#"} name={"raehraas sahib"} />
+      <Button pageLink={"#"} name={"sohilla"} />
 
-      <Button to={"#"} name={"japji sahib"} />
-      <Button to={"#"} name={"raehraas sahib"} />
-      <Button to={"#"} name={"sohilla"} />
+      <Button pageLink={"#"} name={"japji sahib"} />
+      <Button pageLink={"#"} name={"raehraas sahib"} />
+      <Button pageLink={"#"} name={"sohilla"} />
     </>
   );
 }
