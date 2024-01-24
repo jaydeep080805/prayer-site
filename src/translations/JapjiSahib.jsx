@@ -54,6 +54,14 @@ function JapjiSahib() {
               return <br key={index} />;
             }
 
+            if (language === japjiPunjabi) {
+              return (
+                <p className={`text-2xl m-1 `} key={index}>
+                  {line}
+                </p>
+              );
+            }
+
             // check if the current language is the english meaning
             if (language === japjiEnglishMeaning) {
               // checks if it is the start of the next chapter and makes the text bigger and bold
