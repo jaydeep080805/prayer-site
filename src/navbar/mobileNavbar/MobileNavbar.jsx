@@ -1,28 +1,28 @@
-import { useState } from "react";
+// import { useState } from "react";
+import Image from "../desktopNavbar/components/Image";
+import Khanda from "../../assets/Khanda_Orange.jpg";
 
 function MobileNavbar() {
-  const [menuIsOpen, setMenuIsOpen] = useState(false);
-
-  const handleMenuClick = () => {
-    return setMenuIsOpen(!menuIsOpen);
-  };
+  // const [isOpen, setIsOpen] = useState(false);
 
   return (
-    // main navbar container
-    <div className="flex flex-col gap-2 transition-all duration-200 ease-in-out w-screen py-2 px-2 bg-black text-white md:hidden">
-      <i
-        onClick={handleMenuClick}
-        className={`text-2xl ${
-          menuIsOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars "
-        }`}
-      ></i>
-
-      <div className={`capitalize ${menuIsOpen ? "flex flex-col" : "hidden"}`}>
-        <p>Japuji sahib</p>
-        <p>raehraas sahib</p>
-        <p>ardaas</p>
-        <p>sohilaa</p>
+    // main container
+    <div className="w-screen md:hidden">
+      {/* content container */}
+      <div className="flex justify-between items-center py-2">
+        {/* image container */}
+        <div>
+          <Image image={Khanda} altText={"Sikh Khanda"} />
+        </div>
+        {/* bars icon container */}
+        <div className="mr-5">
+          {/* bar icon */}
+          <i className="fa fa-bars text-3xl text-orange-400"></i>
+        </div>
       </div>
+
+      {/* bottom orange border */}
+      <div className="border border-b border-orange-400"></div>
     </div>
   );
 }
