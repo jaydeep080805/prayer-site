@@ -2,12 +2,12 @@ import { useState } from "react";
 
 import ButtonStructure from "../components/ButtonStructure";
 import { japjiSahib } from "../translations";
-import JabjiButtons from "./japjiButtons";
+import TranslationButton from "./components/translationButton";
 
 // get all the languages
 const japjiPunjabi = japjiSahib["gurmuki"];
 const japjiEnglish = japjiSahib["english"];
-const japjiEnglishMeaning = japjiSahib["english"];
+const japjiEnglishMeaning = japjiSahib["englishMeaning"];
 
 function JapjiSahib() {
   // set the default language to punjabi
@@ -31,25 +31,58 @@ function JapjiSahib() {
   };
 
   return (
+    // center the elements
     <div className="flex justify-center pt-20 md:mx-96">
+      {/* set the background to white and center text */}
       <div className="bg-white w-full text-center">
+        {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
           {/* render the buttons */}
           <div className="mb-10">
             <ButtonStructure
-              buttons={<JabjiButtons onLanguageChange={handleLanguageChange} />}
+              buttons={
+                <TranslationButton onLanguageChange={handleLanguageChange} />
+              }
             />
           </div>
 
           {/* loop through all the lines and add them to the screen
           this will update dynamically based on what language is chosen */}
           {language.map((line, index) => {
+            // if the current line is blank then add a line as it means its the end of a paragraph
             if (line === "") {
               return <br key={index} />;
             }
 
+            // check if the current language is the english meaning
+            if (language === japjiEnglishMeaning) {
+              // check if the current line is even
+              const indexIsEven = index % 2 === 0;
+
+              if (line.startsWith("Pauri")) {
+                return (
+                  <p
+                    className={`text-5xl m-3 my-5 underline font-bold font-heading`}
+                    key={index}
+                  >
+                    {line}
+                  </p>
+                );
+              }
+
+              // if the current line is even, then set the font to bold
+              return (
+                <p
+                  className={`text-2xl m-3 ${indexIsEven && "font-bold"}`}
+                  key={index}
+                >
+                  {line}
+                </p>
+              );
+            }
+
             return (
-              <p className="text-2xl" key={index}>
+              <p className="text-2xl m-3" key={index}>
                 {line}
               </p>
             );
