@@ -32,9 +32,9 @@ function JapjiSahib() {
 
   return (
     // center the elements
-    <div className="flex justify-center pt-20 md:mx-96">
+    <div className="flex justify-center md:pt-20 md:mx-96">
       {/* set the background to white and center text */}
-      <div className="bg-white w-full text-center">
+      <div className="bg-white w-max text-center">
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
           {/* render the buttons */}
@@ -56,9 +56,8 @@ function JapjiSahib() {
 
             // check if the current language is the english meaning
             if (language === japjiEnglishMeaning) {
-              // check if the current line is even
-              const indexIsEven = index % 2 === 0;
-
+              // checks if it is the start of the next chapter and makes the text bigger and bold
+              // also changes font
               if (line.startsWith("Pauri")) {
                 return (
                   <p
@@ -70,6 +69,8 @@ function JapjiSahib() {
                 );
               }
 
+              // check if the current line is even
+              const indexIsEven = index % 2 === 0;
               // if the current line is even, then set the font to bold
               return (
                 <p
@@ -81,8 +82,9 @@ function JapjiSahib() {
               );
             }
 
+            // if its a regular line then render as usual
             return (
-              <p className="text-2xl m-3" key={index}>
+              <p className="text-2xl m-8 md:m-3" key={index}>
                 {line}
               </p>
             );
