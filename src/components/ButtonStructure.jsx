@@ -18,8 +18,8 @@ function ButtonStructure({ buttons }) {
   );
 }
 
-ButtonStructure.propType = {
-  buttons: PropTypes.elementType,
+ButtonStructure.propTypes = {
+  buttons: PropTypes.node,
 };
 
 export default ButtonStructure;
