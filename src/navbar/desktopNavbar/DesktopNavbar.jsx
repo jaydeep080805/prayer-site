@@ -1,6 +1,7 @@
-import Image from "./components/Image";
+import Image from "../components/Image";
 import Khanda from "../../assets/Khanda_Orange.jpg";
 import Menu from "./components/Menu";
+import Border from "../components/Border";
 
 function DesktopNavbar() {
   return (
@@ -13,7 +14,7 @@ function DesktopNavbar() {
         <Menu />
       </div>
 
-      <div className="border border-b border-orange-400"></div>
+      <Border />
     </div>
   );
 }

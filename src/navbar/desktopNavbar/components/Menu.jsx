@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import SearchIcon from "./SearchIcon";
+import SearchIcon from "../../components/SearchIcon";
 
 // the right side of the menu
 // the side that contains the links

@@ -1,6 +1,9 @@
 // import { useState } from "react";
-import Image from "../desktopNavbar/components/Image";
+import Image from "../components/Image";
 import Khanda from "../../assets/Khanda_Orange.jpg";
+import MobileBars from "./components/MobileBars";
+import Border from "../components/Border";
+import SearchIcon from "../components/SearchIcon";
 
 function MobileNavbar() {
   // const [isOpen, setIsOpen] = useState(false);
@@ -15,14 +18,16 @@ function MobileNavbar() {
           <Image image={Khanda} altText={"Sikh Khanda"} />
         </div>
         {/* bars icon container */}
-        <div className="mr-5">
+        <div className="w-24 flex items-center justify-evenly">
+          {/* search icon */}
+          <SearchIcon />
           {/* bar icon */}
-          <i className="fa fa-bars text-3xl text-orange-400"></i>
+          <MobileBars />
         </div>
       </div>
 
       {/* bottom orange border */}
-      <div className="border border-b border-orange-400"></div>
+      <Border />
     </div>
   );
 }
