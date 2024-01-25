@@ -6,8 +6,8 @@ import SearchIcon from "../../components/SearchIcon";
 function Menu() {
   return (
     <div className="flex items-center gap-10 capitalize text-xl">
-      <MenuItem pageLink={"./japjiSahib"} name={"Japji sahib"} />
-      <MenuItem pageLink={""} name={"raehraas sahib"} />
+      <MenuItem pageLink={"./japji-sahib"} name={"Japji sahib"} />
+      <MenuItem pageLink={"./raehraas-sahib"} name={"raehraas sahib"} />
       <MenuItem pageLink={""} name={"ardaas"} />
       <MenuItem pageLink={""} name={"sohilaa"} />
       <SearchIcon />

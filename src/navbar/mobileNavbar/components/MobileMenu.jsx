@@ -8,12 +8,12 @@ function MobileMenu({ clickFunc }) {
     <div className="mt-20 text-center flex flex-col space-y-5">
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={"./japjiSahib"}
+        pageLink={"./japji-sahib"}
         name={"japji sahib"}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={""}
+        pageLink={"./raehraas-sahib"}
         name={"raehraas sahib"}
       />
       <MobileMenuItem clickFunc={clickFunc} pageLink={""} name={"ardaas"} />
