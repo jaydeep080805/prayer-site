@@ -12,7 +12,7 @@ const japjiEnglishMeaning = japjiTranslation["englishMeaning"];
 function JapjiSahib() {
   // set the default language to punjabi
   const [language, setLanguage] = useState(japjiPunjabi);
-  const [selectedLanguage, setSelectedLanguage] = useState("japjiPubjabi");
+  const [selectedLanguage, setSelectedLanguage] = useState("japjiPunjabi");
 
   // if a button is pressed, then switch the language
   const handleLanguageChange = (selectedLanguage) => {
@@ -47,6 +47,7 @@ function JapjiSahib() {
           <PrayerContent
             language={language}
             selectedLanguage={selectedLanguage}
+            prayerName="japji"
           />
         </div>
       </div>
