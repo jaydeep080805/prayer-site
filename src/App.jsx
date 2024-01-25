@@ -3,7 +3,7 @@ import Navbar from "./navbar/Navbar";
 import Home from "./Home";
 import TranslationSelectionPage from "./translationPages/TranslationSelectionPage";
 import JapjiSahib from "./translationPages/JapjiSahib";
-import RaehraasSahib from "./translationPages/RahraasSahib";
+import RaehraasSahib from "./translationPages/RaehraasSahib";
 
 function App() {
   return (
