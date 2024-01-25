@@ -6,6 +6,7 @@ import MobileMenuItem from "./MobileMenuItem";
 function MobileMenu({ clickFunc }) {
   return (
     <div className="mt-20 text-center flex flex-col space-y-5">
+      <MobileMenuItem clickFunc={clickFunc} pageLink={"./"} name={"home"} />
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./japji-sahib"}
