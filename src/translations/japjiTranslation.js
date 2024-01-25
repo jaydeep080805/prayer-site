@@ -1,4 +1,4 @@
-const japjiSahib = {
+const japjiTranslation = {
   gurmuki: [
     "ਜਪੁਜੀ ਸਾਹਿਬ",
     "",
@@ -1487,4 +1487,4 @@ const japjiSahib = {
   ],
 };
 
-export default japjiSahib;
+export default japjiTranslation;
