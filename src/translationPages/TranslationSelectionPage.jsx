@@ -1,5 +1,5 @@
 import ButtonStructure from "../components/ButtonStructure";
-import TranslationSelectionButtons from "./TranslationSelectionButtons";
+import TranslationSelectionButtons from "./components/TranslationSelectionButtons";
 
 function TranslationSelectionPage() {
   // passes through all the buttons to the button structure to reduce repetitiveness

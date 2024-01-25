@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 import ButtonStructure from "../components/ButtonStructure";
-import { japjiSahib } from "../translations";
+import japjiTranslation from "../translations/japjiTranslation";
 import TranslationButton from "./components/translationButton";
 
 // get all the languages
-const japjiPunjabi = japjiSahib["gurmuki"];
-const japjiEnglish = japjiSahib["english"];
-const japjiEnglishMeaning = japjiSahib["englishMeaning"];
+const japjiPunjabi = japjiTranslation["gurmuki"];
+const japjiEnglish = japjiTranslation["english"];
+const japjiEnglishMeaning = japjiTranslation["englishMeaning"];
 
 function JapjiSahib() {
   // set the default language to punjabi
@@ -34,7 +34,7 @@ function JapjiSahib() {
     // center the elements
     <div className="flex justify-center md:pt-20 md:mx-96">
       {/* set the background to white and center text */}
-      <div className="bg-white w-max text-center">
+      <div className="bg-white w-max text-center md:min-w-[80rem]">
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
           {/* render the buttons */}
