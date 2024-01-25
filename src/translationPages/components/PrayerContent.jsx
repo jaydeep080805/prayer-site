@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import PrayerLine from "./PrayerLine";
 
-function PrayerContent({ language, selectedLanguage }) {
+function PrayerContent({ language, selectedLanguage, prayerName }) {
   return (
     <>
       {/* loop through the array and send each line to the prayerLine where it will check how it should be rendered */}
@@ -11,6 +11,7 @@ function PrayerContent({ language, selectedLanguage }) {
           line={line}
           index={index}
           selectedLanguage={selectedLanguage}
+          prayerName={prayerName}
         />
       ))}
     </>
@@ -20,6 +21,7 @@ function PrayerContent({ language, selectedLanguage }) {
 PrayerContent.propTypes = {
   language: PropTypes.array.isRequired,
   selectedLanguage: PropTypes.string.isRequired,
+  prayerName: PropTypes.string.isRequired,
 };
 
 export default PrayerContent;
