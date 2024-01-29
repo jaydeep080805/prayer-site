@@ -6,6 +6,7 @@ import JapjiSahib from "./translationPages/JapjiSahib";
 import RaehraasSahib from "./translationPages/RaehraasSahib";
 import ArdasSahib from "./translationPages/ArdasSahib";
 import SohillaSahib from "./translationPages/SohillaSahib";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/sohilaa-sahib" element={<SohillaSahib />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
