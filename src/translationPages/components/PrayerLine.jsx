@@ -15,7 +15,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
 
   // sets the heading styles
   const englishMeaningHeading =
-    "text-5xl m-3 my-5 underline font-bold font-heading";
+    "text-5xl m-3 my-5 pt-16 underline font-bold font-heading";
 
   // the punjabi styling
   if (selectedLanguage === `${prayerName}Punjabi`) {
@@ -35,10 +35,10 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
     if (indexIsEven) {
       return (
         <p
-          className={`${baseStyle} ${englishMeaningStyle} md:mt-8 ${
+          className={`${baseStyle} ${englishMeaningStyle} mt-12 lg:mt-16 ${
             // the check if the line is really long and if so add more margin
             // this will be used in prayers like the ardaas where it is very long grouped text
-            line.length >= 120 ? "mt-20 lg:mt-32 xl:mt-20" : "mt-10"
+            line.length >= 150 ? "mt-20 lg:mt-32 xl:mt-20" : "mt-10"
           }`}
         >
           {line}
