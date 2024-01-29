@@ -1,9 +1,12 @@
 import PrayerDisplay from "./components/PrayerDisplay";
 import raehraasTranslation from "../translations/raehraasTranslation";
 
+// get all the languages
 const raehrassPunjabi = raehraasTranslation["gurmuki"];
 const raehrassEnglish = raehraasTranslation["english"];
 const raehrassEnglishMeaning = raehraasTranslation["englishMeaning"];
+
+// create a list of the languages so it can be passed through to the PrayerDisplay
 const listOfScripts = [
   raehrassPunjabi,
   raehrassEnglish,
@@ -11,11 +14,7 @@ const listOfScripts = [
 ];
 
 function RaehraasSahib() {
-  return (
-    <>
-      <PrayerDisplay scripts={listOfScripts} prayerName={"japji"} />
-    </>
-  );
+  return <PrayerDisplay scripts={listOfScripts} prayerName={"raehraas"} />;
 }
 
 export default RaehraasSahib;
