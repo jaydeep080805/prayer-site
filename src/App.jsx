@@ -11,18 +11,23 @@ import Footer from "./footer/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <div className="h-full bg-gray-100 overflow-x-hidden md:h-fit">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/translations" element={<TranslationSelectionPage />} />
-          <Route path="/japji-sahib" element={<JapjiSahib />} />
-          <Route path="/raehraas-sahib" element={<RaehraasSahib />} />
-          <Route path="/ardaas-sahib" element={<ArdasSahib />} />
-          <Route path="/sohilaa-sahib" element={<SohillaSahib />} />
-        </Routes>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <div className="flex-grow bg-gray-100 overflow-x-hidden pb-10">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route
+              path="/translations"
+              element={<TranslationSelectionPage />}
+            />
+            <Route path="/japji-sahib" element={<JapjiSahib />} />
+            <Route path="/raehraas-sahib" element={<RaehraasSahib />} />
+            <Route path="/ardaas-sahib" element={<ArdasSahib />} />
+            <Route path="/sohilaa-sahib" element={<SohillaSahib />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   );
 }
