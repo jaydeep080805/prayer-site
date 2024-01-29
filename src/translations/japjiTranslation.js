@@ -1,4 +1,8 @@
 const japjiTranslation = {
+  youtubeLink: [
+    "https://www.youtube.com/embed/SC1gipmk214?si=ymSuuZBx5rVQVRzM",
+  ],
+
   gurmuki: [
     "ਜਪੁਜੀ ਸਾਹਿਬ",
     "",

@@ -1,4 +1,8 @@
 const ardasTranslation = {
+  youtubeLink: [
+    "https://www.youtube.com/embed/qsJ6r2qF02A?si=jF19_D1ruA26jvRW",
+  ],
+
   gurmuki: [
     "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ॥",
     "ਸ੍ਰੀ ਭਗੌਤੀ ਜੀ ਸਹਾਇ॥",

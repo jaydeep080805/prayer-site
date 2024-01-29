@@ -1,4 +1,8 @@
 const raehraasTranslation = {
+  youtubeLink: [
+    "https://www.youtube.com/embed/dy1bAclA25k?si=cCg7JO2AWdWOgFwX",
+  ],
+
   gurmuki: [
     "ਹਰਿ ਜੁਗੁ ਜੁਗੁ ਭਗਤ ਉਪਾਇਆ ਪੈਜ ਰਖਦਾ ਆਇਆ ਰਾਮ ਰਾਜੇ ॥",
     "ਹਰਣਾਖਸੁ ਦੁਸਟੁ ਹਰਿ ਮਾਰਿਆ ਪ੍ਰਹਲਾਦੁ ਤਰਾਇਆ ॥",

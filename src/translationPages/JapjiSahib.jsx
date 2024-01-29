@@ -2,12 +2,18 @@ import PrayerDisplay from "./components/PrayerDisplay";
 import japjiTranslation from "../translations/japjiTranslation";
 
 // get all the languages
+const youtubeVideo = japjiTranslation["youtubeLink"];
 const japjiPunjabi = japjiTranslation["gurmuki"];
 const japjiEnglish = japjiTranslation["english"];
 const japjiEnglishMeaning = japjiTranslation["englishMeaning"];
 
 // create a list of the languages so it can be passed through to the PrayerDisplay
-const listOfScripts = [japjiPunjabi, japjiEnglish, japjiEnglishMeaning];
+const listOfScripts = [
+  youtubeVideo,
+  japjiPunjabi,
+  japjiEnglish,
+  japjiEnglishMeaning,
+];
 
 function JapjiSahib() {
   return <PrayerDisplay scripts={listOfScripts} prayerName={"japji"} />;

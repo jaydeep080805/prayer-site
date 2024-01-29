@@ -1,4 +1,8 @@
 const sohilaaTranslation = {
+  youtubeLink: [
+    "https://www.youtube.com/embed/jkwTfDew37g?si=wbfcHAacfWjKNtMD",
+  ],
+
   gurmuki: [
     "ਸੋਹਿਲਾ ਰਾਗੁ ਗਉੜੀ ਦੀਪਕੀ ਮਹਲਾ ੧",
     "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥",

@@ -6,9 +6,10 @@ import PrayerContent from "./PrayerContent";
 // get the list of scripts and the name of the prayer
 function PrayerDisplay({ scripts, prayerName }) {
   // create seperate variables to hold all the different script languages
-  const punjabiScript = scripts[0];
-  const englishScript = scripts[1];
-  const englishMeaningScript = scripts[2];
+  const youtubeVideo = scripts[0];
+  const punjabiScript = scripts[1];
+  const englishScript = scripts[2];
+  const englishMeaningScript = scripts[3];
 
   // create the states and give the default values
   const [script, setScript] = useState(punjabiScript);
@@ -43,8 +44,11 @@ function PrayerDisplay({ scripts, prayerName }) {
   return (
     // center the elements
     <div className="flex justify-center md:pt-20 md:mx-96">
+      {/* this div will also align everything in the center including the youtube video */}
       {/* set the background to white and center text */}
-      <div className="bg-white dark:bg-gray-900 dark:text-white w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
+      <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
+        <iframe width="560" height="315" src={youtubeVideo} allowfullscreen />
+
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
           {/* render the language buttons */}
