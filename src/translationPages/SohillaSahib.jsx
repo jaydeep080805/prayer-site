@@ -1,15 +1,15 @@
 import PrayerDisplay from "./components/PrayerDisplay";
-import japjiTranslation from "../translations/japjiTranslation";
+import sohilaaTranslation from "../translations/sohilaaTranslation";
 
-const japjiPunjabi = japjiTranslation["gurmuki"];
-const japjiEnglish = japjiTranslation["english"];
-const japjiEnglishMeaning = japjiTranslation["englishMeaning"];
-const listOfScripts = [japjiPunjabi, japjiEnglish, japjiEnglishMeaning];
+const sohilaaPunjabi = sohilaaTranslation["gurmuki"];
+const sohilaaEnglish = sohilaaTranslation["english"];
+const sohilaaEnglishMeaning = sohilaaTranslation["englishMeaning"];
+const listOfScripts = [sohilaaPunjabi, sohilaaEnglish, sohilaaEnglishMeaning];
 
 function SohillaSahib() {
   return (
     <>
-      <PrayerDisplay scripts={listOfScripts} prayerName={"japji"} />
+      <PrayerDisplay scripts={listOfScripts} prayerName={"sohilaa"} />
     </>
   );
 }
