@@ -967,6 +967,728 @@ const raehraasTranslation = {
 
     "mai nirguniaare ko gun naahee aape tars peeoee",
     "I am unworthy, I have no merit; it is only by Your Grace that I am saved.",
+    "so dar kehaa so ghar kehaa jit beh sarab samaale",
+    "Where is that Door, and where is that Home, in which You sit and take care of all?",
+
+    "vaaje naad anek asankhaa kete vaavanhaare",
+    "Countless musical instruments of various kinds play there, played by many musicians",
+
+    "kete raag paree sir kahie kete gaavanhaare",
+    "Many ragas are sung there by so many singers",
+
+    "gaavahi tuhno paun paanee baisantar gaavai raajaa dharam du-aare",
+    "The pranic wind, water and fire sing; the Righteous Judge of Dharma sings at Your Door",
+
+    "gaavahi chit gupat likh jaanahi likh likh dharam vichaare",
+    "Chitr and Gupt, the angels of the conscious and the subconscious who record actions, and the Righteous Judge of Dharma who considers them, sing",
+
+    "gaavahi eesar barmaa deve sohan tere sadaa savaare",
+    "Shiva, Brahma and the goddesses, beautifully adorned, sing",
+
+    "gaavahi ind indaasan baithai devati-aan dar naale",
+    "Indra, seated on his celestial throne, with the deities at Your Door, sings",
+
+    "gaavahi sidh samaadhee andar gaavahi saadh vichaare",
+    "The Siddhas in Samaadhi and the holy saints deep in contemplation sing",
+
+    "gaavahi jati sati santokhee gaavahi veer karaare",
+    "The celibates, the true disciples, the contented souls, and the valiant heroes sing",
+
+    "gaavahi pandit padan rakhisar jug jug vedaa naale",
+    "Pandits, the religious scholars who recite scriptures, and the Vedas from age to age sing",
+
+    "gaavahi mohani-aan man mohaneh surag machh paiale",
+    "The enticing heavenly beauties who entice hearts in paradise, in this world, and in the underworld of the subconscious sing",
+
+    "gaavahi ratan upaae tere aathasath tirath naale",
+    "The jewels created by You, and the sixty-eight sacred shrines of pilgrimage sing",
+
+    "gaavahi jodh mahaabal sooraa gaavahi khaanee chaare",
+    "The brave and mighty warriors, the spiritual heroes, and the four sources of creation sing",
+
+    "gaavahi khand mandal varbhandaa kar kar rakhe taare",
+    "The planets, solar systems and galaxies, created and established by Your Hand, sing",
+
+    "sayv tudh no gaavahi jo tudh bhaavan ratte tere bhagat rasaale",
+    "Those who are pleasing to You, imbued with devotion to You, sing",
+
+    "hor kitee tudh no gaavahi se mai chit na aavan naanak kiaa veechaare",
+    "Many others sing of You, they are not in my mind; Nanak, what can the poor wretch do?",
+
+    "soee soee sadaa sach saahib saachaa saachee naaee",
+    "Forever and ever, You are the True Lord; True is Your Name",
+
+    "hai bhee hosee jaae naa jaasee rachnaa jin rachaaee",
+    "You exist forever; You will always exist. You created the creation",
+
+    "rangee rangee bhaatee kar kar jinsee maaiaa jin upaaee",
+    "You created the world with various colors, species, and kinds",
+
+    "kar kar vekhai keetaa aapnaa jiv tis dee vadi-aa-ee",
+    "You create and behold Your own creation, and Your greatness is reflected in it",
+
+    "jo tis bhaavai soee karsee fir hukam na karnaa jaaee",
+    "Whatever pleases You, that is what happens; nothing else can be done",
+
+    "so paatishaahee paatishaah naanak rahe na raajaaee",
+    "You are the King of Kings, Nanak remains in Your Sovereignty",
+
+    "rai-ai hukam na chalai naal",
+    "No one has any power alongside Your Command",
+
+    "khasam visaari te kamjat naal",
+    "Those who forget their Lord and Master are vile and wretched",
+
+    "naanak likhiaa naal",
+    "Nanak, it is written that you shall obey His Order!",
+
+    "vaahu vaahu baa nii-ek kahat hai",
+    "Those who describe You with love are wonderful",
+
+    "teraa ant na paar aavara",
+    "No one can find Your limits",
+
+    "sachaa saahee ek tu sachaa saahee ek tu",
+    "You alone are the True Lord; the True Master",
+
+    "saachaa naam meraa aadhaaro",
+    "Your Name is my only support",
+
+    "saach naam aadhaaro meraa jin bhukhaa sabh gavaaeeaa",
+    "The True Name is my only support; it satisfies all hungers",
+
+    "kar saant sukh man aae vaseeaa jin ichhaa sabh pujaaeeaa",
+    "It has brought peace and tranquility to my mind; it has fulfilled all my desires",
+
+    "saachaa naam meraa aadhaaro",
+    "The True Name is my only support",
+
+    "vaajai panch shabad tit ghar sabhaagai",
+    "The Panch Shabad, the five primal sounds, vibrate in that blessed home",
+
+    "ghar sabhaagai shabad vaaje kalaa jit ghar dhaareeaa",
+    "In that blessed home where the Shabad vibrates, there, You have infused Your power",
+
+    "paanch dute tu dvaaarai baithai sabh bhaagat naahee baachhai",
+    "The five evil enemies are forced to leave; none of the evil-doers can remain",
+
+    "kharai har kamm sanjog karae",
+    "You arrange the affairs of those who meditate on You",
+
+    "naanak sachai saahee",
+    "Nanak, the True Lord",
+
+    "jo maa-i-aa johai",
+    "Is seen through the world and its affairs",
+
+    "bhaau bhaagat kar nainantar aakhaa",
+    "With love and devotion, look within your own heart",
+
+    "naanak bin aapaa chhinnai mokh du-aar",
+    "Nanak, without self-conceit, the gate of liberation is found.",
+
+    "asankh moorakh andh ghor",
+    "Countless fools, blind in darkness",
+
+    "asankh chor haram khor",
+    "Countless thieves and embezzlers",
+
+    "asankh amar kar jaahi jor",
+    "Countless impose their will by force",
+
+    "asankh galvad hati-aa kamaahi",
+    "Countless cut-throats and ruthless killers",
+
+    "asankh paapee paap kar jaahi",
+    "Countless sinners who keep on sinning",
+
+    "asankh koori-aar kooray firaahi",
+    "Countless liars, wandering in their lies",
+
+    "asankh malaychh mal bhakh khaahi",
+    "Countless wretches, eating filth as their ration",
+
+    "asankh nindak sir karahi bhaar",
+    "Countless slanderers, carrying the weight of their stupid mistakes on their heads",
+
+    "naanak neech kahai veechaar",
+    "Nanak says, to consider them lowly is a mistake",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "asankh naav asankh thaav",
+    "Countless names, countless places",
+
+    "agam agam asankh lo-a",
+    "Inaccessible, unapproachable, countless celestial realms",
+
+    "asankh kahahi sir bhaar hoe",
+    "Even to call them countless is to carry the weight on your head",
+
+    "akharee naam akharee saalaah",
+    "Through the word of the Shabad, we speak His Name and His Praise",
+
+    "akharee giaan geet gun gaah",
+    "Through the word of the Shabad, we sing His Wisdom and His Glories",
+
+    "akharee likhan bolan baan",
+    "Through the word of the Shabad, we write and we speak",
+
+    "akharaa sir sanjog vakhaan",
+    "Through the word of the Shabad, we describe and explain",
+
+    "jin eh likhe tis sir naahi",
+    "The One who wrote these words has no end or limitation",
+
+    "jiv furmaae tiv tiv paahi",
+    "As He ordains, so do we receive",
+
+    "jeetaa keetaa tetaa naao",
+    "As much as He created, so many are His Names",
+
+    "vin naavai naahee ko thaao",
+    "Without His Name, there is no place at all",
+
+    "kudrat kavan kahaa veechaar",
+    "How can we speak of His Creative Power",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "paataalaa paataal lakh aagaasaa aagaas",
+    "The underworlds and the skies above are so many, endless",
+
+    "orak orak bhaal thake ved kahen ik vaat",
+    "The more we explore, the more we find; the Vedas say one thing",
+
+    "sahas athaarah kahen kataybaa asuloo ik dhaat",
+    "The scriptures say 18,000 worlds, but in reality, there is only One Universe",
+
+    "lekh ho-ay taa likhee-ai lekh hoveh vin-aas",
+    "If there were to be a written account, then one could write, but it would eventually perish",
+
+    "naanak vadaa aakhee-ai aapai jaanai aap",
+    "Nanak, call Him Great; He Himself knows Himself",
+
+    "saalaahi saalaah etee surat na paai-aa",
+    "Praising the Praise-worthy, His greatness cannot be understood",
+
+    "naadhi-aa atai vaah pavah samund na jaanee-ah",
+    "Rivers and streams may flow into the ocean, but the ocean's extent is not known",
+
+    "samund saah sultaan girhaa setee maal dhan",
+    "The ocean may be the king of kings, with its treasures of pearls and coral",
+
+    "keeree tul na hovnee je tis manhu na visaaree",
+    "But to the ant who does not forget Him, it is not even equal to that",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "sunee-ai eesar barmaa ind",
+    "Listening, Shiva, Brahma and Indra",
+
+    "sunee-ai mukh saalaahan mand",
+    "Listening, even foul-mouthed people praise Him",
+
+    "sunee-ai jog jugat tan bhed",
+    "Listening, the technology of Yoga and the secrets of the body",
+
+    "sunee-ai saasat simrit ved",
+    "Listening, the Shastras, the Simritis and the Vedas",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "sunee-ai sat santokh gi-aan",
+    "Listening, truth, contentment and spiritual wisdom",
+
+    "sunee-ai athsath kaa isnaan",
+    "Listening, as if bathing at the sixty-eight places of pilgrimage",
+
+    "sunee-ai par par paavahi maan",
+    "Listening, honor is obtained",
+
+    "sunee-ai laagai sahaj dhi-aan",
+    "Listening, the mind is absorbed into the state of spiritual wisdom",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "sunee-ai saraa gunaa ke gaah",
+    "Listening, dive deep into the virtues of God",
+
+    "sunee-ai sheikh peer paatishaah",
+    "Listening, the sheikhs, spiritual teachers, emperors",
+
+    "sunee-ai andhay paavahi raahu",
+    "Listening, even the blind find the Path",
+
+    "sunee-ai haath hovai asgaahu",
+    "Listening, the Unreachable comes within your grasp",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "sunee-ai isar barmaa ind",
+    "Listening, Shiva, Brahma and Indra",
+
+    "sunee-ai mukh saalaahan mand",
+    "Listening, even foul-mouthed people praise Him",
+
+    "sunee-ai jog jugat tan bhed",
+    "Listening, the technology of Yoga and the secrets of the body",
+
+    "sunee-ai saasat simrit ved",
+    "Listening, the Shastras, the Simritis and the Vedas",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "sunee-ai saraa gunaa ke gaah",
+    "Listening, dive deep into the virtues of God",
+
+    "sunee-ai sheikh peer paatishaah",
+    "Listening, the sheikhs, spiritual teachers, emperors",
+
+    "sunee-ai andhay paavahi raahu",
+    "Listening, even the blind find the Path",
+
+    "sunee-ai haath hovai asgaahu",
+    "Listening, the Unreachable comes within your grasp",
+
+    "naanak bhagtaa sadaa vigaas sunee-ai dookh paap ka naas",
+    "Nanak, the devotees are forever in bliss, for they hear and destroy their sorrows and sins",
+
+    "mannay kee gat kahee na jaa-ay",
+    "The state of the faithful cannot be described",
+
+    "je ko kahai pichhai pachhutaa-ay",
+    "One who tries to describe this shall regret the attempt",
+
+    "kaagad kalam na likhanhaar",
+    "No paper, no pen, no scribe",
+
+    "mannay kaa beh karan veechaar",
+    "Can record the state of the faithful",
+
+    "aisaa naam niranjan ho-ay",
+    "Such is the Name of the Immaculate Lord",
+
+    "je ko man jaanai man ko-ay",
+    "Only one who has faith comes to know such a state of mind",
+
+    "mannay surat hovai man budh",
+    "The faithful have intuitive awareness and intelligence",
+
+    "mannay sagal bhavan kee sudh",
+    "The faithful know about all worlds and realms",
+
+    "mannay muhi chotaa na khaa-ay",
+    "The faithful shall never be struck across the face",
+
+    "mannay jam kai saath na jaa-ay",
+    "The faithful do not have to go with the Messenger of Death",
+
+    "aisaa naam niranjan ho-ay",
+    "Such is the Name of the Immaculate Lord",
+
+    "je ko man jaanai man ko-ay",
+    "Only one who has faith comes to know such a state of mind",
+
+    "mannay maarag thaak na paa-ay",
+    "The path of the faithful shall never be blocked",
+
+    "mannay pat si-on pargat ja-ay",
+    "The faithful shall depart with honor and dignity",
+
+    "mannay mag na chalai panth",
+    "The faithful shall not follow empty religious rituals",
+
+    "mannay dharam setee sanbandh",
+    "The faithful are firmly bound to the Dharma",
+
+    "aisaa naam niranjan ho-ay",
+    "Such is the Name of the Immaculate Lord",
+
+    "je ko man jaanai man ko-ay",
+    "Only one who has faith comes to know such a state of mind",
+
+    "mannay paa-ay moKh du-aar",
+    "The faithful find the Door of Liberation",
+
+    "mannay parvaarai saadar",
+    "The faithful uplift and redeem their family and relations",
+
+    "mannay tarai taaray gur sikh",
+    "The faithful, guided by the Guru, swim across",
+
+    "mannay naanak bhavai na bhikh",
+    "Nanak says, the faithful do not beg",
+
+    "aisaa naam niranjan ho-ay",
+    "Such is the Name of the Immaculate Lord",
+
+    "je ko man jaanai man ko-ay",
+    "Only one who has faith comes to know such a state of mind",
+
+    "paatee paa-o na sakai kar jor",
+    "The leaf cannot stir itself by its own power",
+
+    "jor na mangan dayn na jor",
+    "No power to beg, no power to give",
+
+    "jor na jeevan maran na jor",
+    "No power to live, no power to die",
+
+    "jor na raaj maal man sor",
+    "No power to rule with wealth and occult mental powers",
+
+    "jor na surtee giaan veechaar",
+    "No power to gain intuitive understanding, spiritual wisdom and meditation",
+
+    "jor na jugtee chhutai sansaar",
+    "No power to find the way to escape from the world",
+
+    "jis hath jor kar vekhai so-ay",
+    "He alone has the Power in His Hands. He watches over all",
+
+    "naanak utam neech na ko-ay",
+    "Nanak, no one is high or low",
+
+    "raatee ruthee thitee vaar",
+    "Nights, seasons, days and dates",
+
+    "pavan paanee agnee paataal",
+    "Wind, water, fire and the nether regions",
+
+    "tis vich dharthee thaap rakhae dharma saal",
+    "In the midst of these, He established the earth as a home for Dharma",
+
+    "tis vich jee-a jugat ke rang",
+    "Upon it, He placed the various species of beings",
+
+    "tin ke naam anek anant",
+    "Their names are many and endless",
+
+    "karmee karmee hor kee-aa",
+    "According to their actions, so are their deeds",
+
+    "naanak neech kahai veechaar",
+    "Nanak says, consider this thoughtfully",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "asankh jap asankh bhaao",
+    "Countless meditations, countless loves",
+
+    "asankh poojaa asankh tap taao",
+    "Countless worships, countless austere disciplines",
+
+    "asankh granth mukh ved paath",
+    "Countless scriptures, and recitations of the Vedas",
+
+    "asankh jog man rahai udaas",
+    "Countless Yogis, whose minds remain detached from the world",
+
+    "asankh bhagat gun giaan veechaar",
+    "Countless devotees contemplate the Wisdom and Virtues of the Lord",
+
+    "asankh sati asankh daataar",
+    "Countless the pure, countless the givers",
+
+    "asankh soor muh bhakh saar",
+    "Countless heroic warriors, who bear the brunt of the attack in battle",
+
+    "asankh mon liv laai taar",
+    "Countless silent sages, vibrating the string of His Love",
+
+    "kudrat kavan kahaa veechaar",
+    "How can we speak of His Creative Power",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "bharee-ai hath pair tan dayh",
+    "When the hands and feet and the body are dirty",
+
+    "paanee dhotai utras kheh",
+    "Water can wash away the dirt",
+
+    "moorakh muh naaee-ai jaat",
+    "But when the intellect is stained and polluted by sin",
+
+    "naavai kai rang utras jaat",
+    "It can only be cleansed by the Love of the Name",
+
+    "punnee paa-ee-aa poot paanee dho-ay",
+    "Virtue and vice do not come by mere words",
+
+    "andar visarai doojaa lo-ay",
+    "Actions repeated, over and over again, are engraved on the soul",
+
+    "naanak lekhai ik gal hor",
+    "Nanak, only a few understand this",
+
+    "ha-umai naavai naal virodh hai",
+    "Ego is opposed to the Name of the Lord",
+
+    "do naa vasai ik tha-ay",
+    "The two cannot dwell in the same place",
+
+    "manthaa naanak ehu jaani-ai",
+    "This is the wisdom Nanak has gained",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "paatee paa-o na sakai kar jor",
+    "The leaf cannot stir itself by its own power",
+
+    "jor na mangan dayn na jor",
+    "No power to beg, no power to give",
+
+    "jor na jeevan maran na jor",
+    "No power to live, no power to die",
+
+    "jor na raaj maal man sor",
+    "No power to rule with wealth and occult mental powers",
+
+    "jor na surtee giaan veechaar",
+    "No power to gain intuitive understanding, spiritual wisdom and meditation",
+
+    "jor na jugtee chhutai sansaar",
+    "No power to find the way to escape from the world",
+
+    "jis hath jor kar vekhai so-ay",
+    "He alone has the Power in His Hands. He watches over all",
+
+    "naanak utam neech na ko-ay",
+    "Nanak, no one is high or low",
+
+    "raatee ruthee thitee vaar",
+    "Nights, seasons, days and dates",
+
+    "pavan paanee agnee paataal",
+    "Wind, water, fire and the nether regions",
+
+    "tis vich dharthee thaap rakhae dharma saal",
+    "In the midst of these, He established the earth as a home for Dharma",
+
+    "tis vich jee-a jugat ke rang",
+    "Upon it, He placed the various species of beings",
+
+    "tin ke naam anek anant",
+    "Their names are many and endless",
+
+    "karmee karmee hor kee-aa",
+    "According to their actions, so are their deeds",
+
+    "naanak neech kahai veechaar",
+    "Nanak says, consider this thoughtfully",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "asankh jap asankh bhaao",
+    "Countless meditations, countless loves",
+
+    "asankh poojaa asankh tap taao",
+    "Countless worships, countless austere disciplines",
+
+    "asankh granth mukh ved paath",
+    "Countless scriptures, and recitations of the Vedas",
+
+    "asankh jog man rahai udaas",
+    "Countless Yogis, whose minds remain detached from the world",
+
+    "asankh bhagat gun giaan veechaar",
+    "Countless devotees contemplate the Wisdom and Virtues of the Lord",
+
+    "asankh sati asankh daataar",
+    "Countless the pure, countless the givers",
+
+    "asankh soor muh bhakh saar",
+    "Countless heroic warriors, who bear the brunt of the attack in battle",
+
+    "asankh mon liv laai taar",
+    "Countless silent sages, vibrating the string of His Love",
+
+    "kudrat kavan kahaa veechaar",
+    "How can we speak of His Creative Power",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "bharee-ai hath pair tan dayh",
+    "When the hands and feet and the body are dirty",
+
+    "paanee dhotai utras kheh",
+    "Water can wash away the dirt",
+
+    "moorakh muh naaee-ai jaat",
+    "But when the intellect is stained and polluted by sin",
+
+    "naavai kai rang utras jaat",
+    "It can only be cleansed by the Love of the Name",
+
+    "punnee paa-ee-aa poot paanee dho-ay",
+    "Virtue and vice do not come by mere words",
+
+    "andar visarai doojaa lo-ay",
+    "Actions repeated, over and over again, are engraved on the soul",
+
+    "naanak lekhai ik gal hor",
+    "Nanak, only a few understand this",
+
+    "ha-umai naavai naal virodh hai",
+    "Ego is opposed to the Name of the Lord",
+
+    "do naa vasai ik tha-ay",
+    "The two cannot dwell in the same place",
+
+    "manthaa naanak ehu jaani-ai",
+    "This is the wisdom Nanak has gained",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "bharee-ai mat paapaa kai sang",
+    "When the intellect is stained and polluted by sin",
+
+    "o-oh dhopai naavai kai rang",
+    "It can be cleansed by the Love of the Name",
+
+    "punnee paa-ee-aa poot paanee dho-ay",
+    "Virtue and vice do not come by mere words",
+
+    "andar visarai doojaa lo-ay",
+    "Actions repeated, over and over again, are engraved on the soul",
+
+    "naanak lekhai ik gal hor",
+    "Nanak, only a few understand this",
+
+    "ha-umai naavai naal virodh hai",
+    "Ego is opposed to the Name of the Lord",
+
+    "do naa vasai ik tha-ay",
+    "The two cannot dwell in the same place",
+
+    "manthaa naanak ehu jaani-ai",
+    "This is the wisdom Nanak has gained",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
+
+    "paatee paa-o na sakai kar jor",
+    "The leaf cannot stir itself by its own power",
+
+    "jor na mangan dayn na jor",
+    "No power to beg, no power to give",
+
+    "jor na jeevan maran na jor",
+    "No power to live, no power to die",
+
+    "jor na raaj maal man sor",
+    "No power to rule with wealth and occult mental powers",
+
+    "jor na surtee giaan veechaar",
+    "No power to gain intuitive understanding, spiritual wisdom and meditation",
+
+    "jor na jugtee chhutai sansaar",
+    "No power to find the way to escape from the world",
+
+    "jis hath jor kar vekhai so-ay",
+    "He alone has the Power in His Hands. He watches over all",
+
+    "naanak utam neech na ko-ay",
+    "Nanak, no one is high or low",
+
+    "raatee ruthee thitee vaar",
+    "Nights, seasons, days and dates",
+
+    "pavan paanee agnee paataal",
+    "Wind, water, fire and the nether regions",
+
+    "tis vich dharthee thaap rakhae dharma saal",
+    "In the midst of these, He established the earth as a home for Dharma",
+
+    "tis vich jee-a jugat ke rang",
+    "Upon it, He placed the various species of beings",
+
+    "tin ke naam anek anant",
+    "Their names are many and endless",
+
+    "karmee karmee hor kee-aa",
+    "According to their actions, so are their deeds",
+
+    "naanak neech kahai veechaar",
+    "Nanak says, consider this thoughtfully",
+
+    "vaari-aa na jaavaa ek vaar",
+    "I cannot even once be a sacrifice to You",
+
+    "jo tudh bhaavai saa-ee bhalee kaar",
+    "Whatever pleases You, that is the only good done",
+
+    "tu sadaa salaamat nirankaar",
+    "You, eternal and formless One",
   ],
 };
 
