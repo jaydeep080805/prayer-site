@@ -17,8 +17,16 @@ function MobileMenu({ clickFunc }) {
         pageLink={"./raehraas-sahib"}
         name={"raehraas sahib"}
       />
-      <MobileMenuItem clickFunc={clickFunc} pageLink={""} name={"ardaas"} />
-      <MobileMenuItem clickFunc={clickFunc} pageLink={""} name={"sohilaa"} />
+      <MobileMenuItem
+        clickFunc={clickFunc}
+        pageLink={"./ardaas-sahib"}
+        name={"ardaas"}
+      />
+      <MobileMenuItem
+        clickFunc={clickFunc}
+        pageLink={"./sohilaa-sahib"}
+        name={"sohilaa"}
+      />
     </div>
   );
 }

@@ -8,8 +8,8 @@ function Menu() {
     <div className="flex items-center gap-10 capitalize text-xl">
       <MenuItem pageLink={"./japji-sahib"} name={"Japji sahib"} />
       <MenuItem pageLink={"./raehraas-sahib"} name={"raehraas sahib"} />
-      <MenuItem pageLink={""} name={"ardaas"} />
-      <MenuItem pageLink={""} name={"sohilaa"} />
+      <MenuItem pageLink={"./ardaas-sahib"} name={"ardaas"} />
+      <MenuItem pageLink={"./sohilaa-sahib"} name={"sohilaa"} />
       <SearchIcon />
     </div>
   );
