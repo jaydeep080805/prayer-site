@@ -5,12 +5,21 @@ import PropTypes from "prop-types";
 // so instead of having 2 icons, dynamically change this icon based on if the menu is open
 function MobileBars({ onClickFunc, isOpened }) {
   return (
-    <i
-      onClick={onClickFunc}
-      className={`text-3xl text-orange-400 ${
-        isOpened ? "fa-solid fa-x" : "fa fa-bars"
+    // The span acts as a wrapper for the icon and is used to apply the rotation animation.
+    <span
+      className={`inline-block transition-transform duration-300 ${
+        isOpened ? "rotate-90" : "rotate-0"
       }`}
-    ></i>
+    >
+      <i
+        // The onClick function toggles the menu open/close state.
+        onClick={onClickFunc}
+        // The icon changes between bars and 'X' based on the isOpened state.
+        className={`text-3xl text-orange-400 ${
+          isOpened ? "fa-solid fa-xmark" : "fa fa-bars"
+        }`}
+      ></i>
+    </span>
   );
 }
 
