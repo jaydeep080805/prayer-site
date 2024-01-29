@@ -1,5 +1,5 @@
 import Image from "../components/Image";
-import Khanda from "../../assets/Khanda_Orange.jpg";
+import Khanda from "../../assets/Khanda_Orange.png";
 import Menu from "./components/Menu";
 import Border from "../components/Border";
 

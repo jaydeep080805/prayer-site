@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "../components/Image";
-import Khanda from "../../assets/Khanda_Orange.jpg";
+import Khanda from "../../assets/Khanda_Orange.png";
 import MobileBars from "./components/MobileBars";
 import Border from "../components/Border";
 import SearchIcon from "../components/SearchIcon";
