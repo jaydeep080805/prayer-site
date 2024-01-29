@@ -47,7 +47,11 @@ function PrayerDisplay({ scripts, prayerName }) {
       {/* this div will also align everything in the center including the youtube video */}
       {/* set the background to white and center text */}
       <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
-        <iframe width="560" height="315" src={youtubeVideo} allowfullscreen />
+        <iframe
+          className="lg:w-[30rem] lg:h-[15rem] xl:w-[40rem] xl:h-[20rem]"
+          src={youtubeVideo}
+          allowfullscreen
+        />
 
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
