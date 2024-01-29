@@ -2,10 +2,14 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      main: ["Roboto", "sans-serif"],
+      heading: ["Montserrat", "serif"],
+    },
     extend: {
-      fontFamily: {
-        main: ["Roboto", "sans-serif"],
-        heading: ["Montserrat", "serif"],
+      spacing: {
+        160: "60rem",
+        200: "80rem",
       },
     },
   },
