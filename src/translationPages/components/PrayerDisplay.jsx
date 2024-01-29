@@ -47,8 +47,6 @@ function PrayerDisplay({ scripts, prayerName }) {
             selectedLanguage={selectedLanguage}
             prayerName={prayerName}
           />
-
-          <p>hello world</p>
         </div>
       </div>
     </div>
