@@ -16,7 +16,7 @@ function MobileNavbar() {
 
   return (
     // main container
-    <div className="w-screen md:hidden">
+    <div className="dark:bg-gray-800 w-screen md:hidden">
       {/* slide menu */}
       <SlideMenu isOpened={isOpen} clickFunc={handleClick} />
 

@@ -44,7 +44,7 @@ function PrayerDisplay({ scripts, prayerName }) {
     // center the elements
     <div className="flex justify-center md:pt-20 md:mx-96">
       {/* set the background to white and center text */}
-      <div className="bg-white w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
+      <div className="bg-white dark:bg-gray-900 dark:text-white w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
         <div className="m-5">
           {/* render the language buttons */}

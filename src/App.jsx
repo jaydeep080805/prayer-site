@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <div className="flex-grow bg-gray-100 overflow-x-hidden pb-10">
+        <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route

@@ -35,7 +35,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
     if (indexIsEven) {
       return (
         <p
-          className={`${baseStyle} ${englishMeaningStyle} mt-12 lg:mt-16 ${
+          className={`${baseStyle} ${englishMeaningStyle} text-orange-400 mt-12 lg:mt-16 ${
             // the check if the line is really long and if so add more margin
             // this will be used in prayers like the ardaas where it is very long grouped text
             line.length >= 150 ? "mt-20 lg:mt-32 xl:mt-20" : "mt-10"
