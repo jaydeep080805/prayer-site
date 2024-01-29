@@ -3,30 +3,37 @@ import { useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import PrayerContent from "./PrayerContent";
 
+// get the list of scripts and the name of the prayer
 function PrayerDisplay({ scripts, prayerName }) {
+  // create seperate variables to hold all the different script languages
   const punjabiScript = scripts[0];
   const englishScript = scripts[1];
   const englishMeaningScript = scripts[2];
 
+  // create the states and give the default values
   const [script, setScript] = useState(punjabiScript);
   const [selectedLanguage, setSelectedLanguage] = useState(
     `${prayerName}Punjabi`
   );
 
+  // function to handle when a language button is pressed
   const handleLanguageChange = (selectedLanguage) => {
     switch (selectedLanguage) {
       case "punjabi":
         setScript(punjabiScript);
         setSelectedLanguage(`${prayerName}Punjabi`);
         break;
+
       case "english":
         setScript(englishScript);
         setSelectedLanguage(`${prayerName}English`);
         break;
+
       case "english meaning":
         setScript(englishMeaningScript);
         setSelectedLanguage(`${prayerName}EnglishMeaning`);
         break;
+
       default:
         setScript(punjabiScript);
         setSelectedLanguage(`${prayerName}Punjabi`);
