@@ -21,6 +21,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
   if (selectedLanguage === `${prayerName}Punjabi`) {
     return <p className={`${punjabiStyle}`}>{line}</p>;
   }
+
   // the english meaning styling
   else if (selectedLanguage === `${prayerName}EnglishMeaning`) {
     const indexIsEven = index % 2 === 0;
@@ -33,7 +34,15 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
     // if its an even line (an actual meaning) then apply the meaning styles
     if (indexIsEven) {
       return (
-        <p className={`${baseStyle} ${englishMeaningStyle} md:mt-8 `}>{line}</p>
+        <p
+          className={`${baseStyle} ${englishMeaningStyle} md:mt-8 ${
+            // the check if the line is really long and if so add more margin
+            // this will be used in prayers like the ardaas where it is very long grouped text
+            line.length >= 120 ? "mt-20 lg:mt-32 xl:mt-20" : "mt-10"
+          }`}
+        >
+          {line}
+        </p>
       );
     }
   }
