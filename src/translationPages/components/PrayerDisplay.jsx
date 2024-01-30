@@ -50,7 +50,7 @@ function PrayerDisplay({ scripts, prayerName }) {
         <iframe
           className="lg:w-[30rem] lg:h-[15rem] xl:w-[40rem] xl:h-[20rem]"
           src={youtubeVideo}
-          allowfullscreen
+          allowFullScreen
         />
 
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
