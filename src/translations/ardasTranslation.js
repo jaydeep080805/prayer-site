@@ -123,63 +123,55 @@ const ardasTranslation = {
     "vaar sree bhagautee jee kee || paatisaahee 10 ||",
     "The Heroic Poem of Sri Bhagauti Ji by the Tenth King (Guru Gobind Singh).",
 
-    "piratham bhagauatee simar kai gur naanak liee(n) dhiaai ||\
-    fir a(n)gadh gur te amaradhaas raamadhaasai hoiee(n) sahai ||\
-    arajan harigobi(n)dh no simarau sree harirai ||\
-    sree harikirashan dhiaaieeaai jis ddiThe sabh dhukh jai ||\
-    teg bahaadhar simariaai ghar nau nidh aavai dhai || sabh thaiee(n) hoi sahai ||1||\
-    In the beginning I remember Bhagauti, the Lord (Whose symbol is the sword and then I remember Guru Nanak.",
+    "piratham bhagauatee simar kai gur naanak liee(n) dhiaai ||",
+    "In the beginning I remember Bhagauti, the Lord (Whose symbol is the sword and then I remember Guru Nanak.",
 
-    "Then I remember Guru Angad, Guru Amar Das and Guru Ram Das, may they be helpful to me.\
-    Then I remember Guru Arjan, Guru Hargobind and Guru Har Rai.\
-    (After them) I remember Guru Sri Har Kishan, by whose sight all the sufferings vanish.\
-    Then I do remember Guru Tegh Bahadur, though whose Grace the nine treasures come running to my house. May they be helpful to me everywhere.1.",
+    "fir a(n)gadh gur te amaradhaas raamadhaasai hoiee(n) sahai ||",
+    "Then I remember Guru Angad, Guru Amar Das and Guru Ram Das, may they be helpful to me.",
 
-    "dhasave(n) paatashaeh sree guroo gobi(n)dh si(n)gh saahib jee mahaaraaj pa(n)th dhe vaalee sabh thaiee(n) hoi sahai II\
-    dhasaa(n) paatashaaheeaa(n) jee dhee jot sree guroo gra(n)th saahib jee dhe paaTh dheedhaar dhaa dhiaan dhar ke bolo jee vaahiguroo vaahiguroo vaahiguroo ||",
+    "arajan harigobi(n)dh no simarau sree harirai ||",
+    "Then I remember Guru Arjan, Guru Hargobind and Guru Har Rai.",
 
-    "Tenth king revered Guru Gobind Singh may he help us everywhere.\
-    The spirit of all the ten kings (gurus) enshrined in the visible body and the word of the Guru Granth, concentrate on that and say, the congregation: Waheguru.\
-    pa(n)jaa piaariaa(n) chauahaa(n) saahibazaadhiaa(n) chaalheeaa(n) naam ja’piaa va(n)dd chhakiaa",
+    "sree harikirashan dhiaaieeaai jis ddiThe sabh dhukh jai ||",
+    "(After them) I remember Guru Sri Har Kishan, by whose sight all the sufferings vanish.",
+
+    "teg bahaadhar simariaai ghar nau nidh aavai dhai || sabh thaiee(n) hoi sahai ||1||",
+    "Then I do remember Guru Tegh Bahadur, though whose Grace the nine treasures come running to my house. May they be helpful to me everywhere.1.",
+
+    "dhasave(n) paatashaeh sree guroo gobi(n)dh si(n)gh saahib jee mahaaraaj pa(n)th dhe vaalee sabh thaiee(n) hoi sahai II",
+    "Tenth king revered Guru Gobind Singh may he help us everywhere.",
+
+    "dhasaa(n) paatashaaheeaa(n) jee dhee jot sree guroo gra(n)th saahib jee dhe paaTh dheedhaar dhaa dhiaan dhar ke bolo jee vaahiguroo vaahiguroo vaahiguroo ||",
+    "The spirit of all the ten kings (gurus) enshrined in the visible body and the word of the Guru Granth, concentrate on that and say, the congregation: Waheguru.",
 
     "pa(n)jaa piaariaa(n) chauahaa(n) saahibazaadhiaa(n) chaalheeaa(n) naam ja’piaa va(n)dd chhakiaa dheg chalaiee teg vaahee dhekh ke anaddi’Th keetaa tinhaa(n) piaariaa(n) sachiaariaa(n) dhee kamaiee dhaa dhiaan dhar ke khaalasaa jee bolo jee vaahiguroo ||",
-
     "Five beloved ones, four prince sons of Guru Gobind Singh Ji, forty redeemed ones, those who have remained in steadfast in suffering, those who kept constant remembrance of Waheguru. Those who renounced the sensuous pleasures, those who have constantly live in the divine presence, shared earnings, expressed magnanimity, have persevered in their fight in the cause of justice, turned a blind eye to the faults and failings of others and did not falter. Concentrate your minds on the struggles and achievements of those, o, revered members of the order of the Khalsa, and say: ‘Waheguru’.",
 
     "jinhaa(n) si(n)ghaa(n) si(n)ghaneeaa(n) ne dharam het sees dhite ba(n)dh ba(n)dh ka Taae khopareeaa(n) luhaieeaa(n) charakheeaa(n) te chaRhe aariaa(n) naal chiraae ge gurdhuaariaa(n) dhee sevaa liee kurabaaneeaa(n) keeteeaa(n) dharam nahee(n) haariaa si’khee kesaa(n) suaasaa(n) naal nibhaahee tinhaa(n) dhee kamaiee dhaa dhiaan dhar ke khhaalasaa jee bolo jee vaahiguroo ||",
-
     "The Singhs and Kaurs who courted martyrdom in the cause of religion and underwent unspeakable sufferings of being dismembered alive, scalped alive, broken on the wheels, sawed alive and boiled alive and those who made sacrifices in the service of the centers of the Sikh religion the Gurdwaras; but never wavered in their faith and remained steadfast in the cause of Sikhi to the last hair of their body and to their last breath, O, revered members of the Khalsa order, concentrate your minds on the glorious deeds of those, and utter, glory to Waheguru.",
 
     "pa(n)jaa(n) takhhataa(n) saraba’t gurdhuaariaa(n) dhaa dhiaan dhar ke bolo jee vaahiguroo ||",
-
     "Think of the five seats of authority, the thrones of the religion and all Gurdwaras and say Waheguru!",
 
     "pirathame saraba’t khaalasaa jee kee aradhaas hai jee saraba’t khaalasaa jee ko vaahiguroo vaahiguroo vaahiguroo chit aave chit aavan kaa sadhakaa sarab tahaa(n) rachhiaa riaait dheg teg fateh biradh kee paij pa(n)th kee jeet sree saahib jee sahai khaalase jee ke bol baale bolo jee vaahiguroo ||",
-
     "First the prayer of the whole Khalsa is may the presence of Waheguru be progressively felt in the hearts of all the Khalsa. And may the whole creation become happy and prosperous thereby. May the supplies of the Khalsa ever remain replenished, may the sword of the Khalsa be ever victorious, may the royal title of the Khalsa be universally recognized and honoured, may victory attend upon all just endeavours of the panth. The Khalsa commonwealth, may Waheguru’s might be our constantly, may the order of the Khalsa achieve ever-expanding progress and supremacy, say Waheguru! Waheguru!",
 
     "si’khaa(n) noo(n) si’khee dhaan kes dhaan rahit dhaan bibek dhaan visaeh dhaan bharosaa dhaan dhaanaa(n) sir dhaan naam dhaan sree a(n)mritasar jee dhe ishanaan chaua(n)keeaa(n) jha(n)dde bu(n)ge jugo jug aTa’l dharam kaa jaikaar bolo jee vaahiguroooo ||",
-
     "Grant to the Sikhs: the gift of faith, the gift of uncut hair, the gift of discipline, gift of the knowledge, the gift of mutual trust, the gift of self-confidence and the supreme gift of all gifts, the gift of communion with Waheguru. May Sikhs freely center around and dip in the holy lake of Amritsar, Sikh concerts, the banners, dwelling houses ever remain inviolate. May the cause of truth and justice prevail everywhere and at all times. Sires, utter Waheguru.",
 
     "si’khaa(n) dhaa man neevaa(n) ma’t u’chee ma’t dhaa raakhaa akaal purakh vaahiguroo ||",
-
     "May the passions in the minds of the Sikhs remain calm and the reason flow clear and may the reason always be guided by the light of Waheguru.",
 
     "he akaal purakh aapane pa(n)th dhe sadhaa sahaiee dhaataar jeeo || sree nanakaanaa saahib te hor gurdhuaariaa(n) gurdhaamaa(n) dhe jinhaa(n) to(n) pa(n)th noo(n) vichhoRiaa giaa hai khulhe dharashan dheedhaar te sevaa sa(n)bhaal dhaa dhaan khhaalasaa jee noo(n) bakhhasho ||",
-
     "O, Almighty, protector and helper ever of the Panth, restore to us the right and privilege of unhindered management and free service of Nankana Sahib and other centres of the Sikh religion, the Gurdwaras, out of which we have been forcibly evicted.",
 
     "he nimaaniaa dhe maan nitaaniaa dhe taan nio Tiaa(n) dhee oT sache pitaa vaahiguroo aap jee dhe …… aradhaas hai jee || akhar dhaa vaadhaa ghaaTaa bhul chuk maaph karanee jee || saraba’t dhe kaaraj raas karane || seiee piaare mel jinhaa(n) miliaa(n) teraa naam chi’t aave || naanak naam chaRhadhee kalaa || tere bhaane saraba’t dhaa bhalaa ||",
-
     "O’ true father of all lord, Waheguru here is a prayer: … Forgive us our shortcomings, extend thy helping hand to all and every one. Grant us the company of those who may help keep thy name fresh in our hearts. May the name, the religion preached by Nanak Dev Ji prevail and prosper, forever and ever, may thy will be done wherein lies the good of all.",
 
     "vaahiguroo jee kaa khaalasaa ||",
-
     "The Khalsa is of Waheguru",
 
     "vaahiguroo jee kee phateh ||",
-
     "and to Waheguru belongs Victory",
   ],
 };
