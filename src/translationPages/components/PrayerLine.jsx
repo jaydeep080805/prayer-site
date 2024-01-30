@@ -1,4 +1,7 @@
 import PropTypes from "prop-types";
+import { Tooltip } from "react-tooltip";
+import pronunciationDict from "../../translations/pronunciationDict";
+import React from "react";
 
 function PrayerLine({ line, index, selectedLanguage, prayerName }) {
   // if the line is empty then use a break since its the end of a paragraph
@@ -17,6 +20,45 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
   const englishMeaningHeading =
     "text-5xl m-3 my-5 pt-16 underline font-bold font-heading";
 
+  const wordWithPronunciation = (line) => {
+    // filters the array by " " and "."
+    const words = line.split(/[\s.]+/);
+
+    // loopp through the words
+    const newLine = words.map((word, wordIndex) => {
+      // convert the string to lowercase
+      const pronunciation = pronunciationDict[word.toLowerCase()];
+
+      // Create a unique ID so the tooltip displays correctly
+      const uniqueId = `tooltip-${index}-${wordIndex}`;
+
+      if (pronunciation) {
+        // if the word is in the dictionary then display the word with the tooltip
+        return (
+          <React.Fragment key={uniqueId}>
+            <span id={uniqueId} className={"cursor-pointer px-1"}>
+              {word}
+            </span>
+            <Tooltip anchorSelect={`#${uniqueId}`} clickable>
+              {pronunciation}
+            </Tooltip>
+          </React.Fragment>
+        );
+      } else {
+        // otherwise return the unfiltered word
+        return `${word} `;
+      }
+    });
+    // return the newLine so it can be rendered
+    return newLine;
+  };
+
+  let processedLine = line;
+  // this should always execute on the englishMeaning since there should always be a line
+  if (line !== "" && selectedLanguage === `${prayerName}EnglishMeaning`) {
+    processedLine = wordWithPronunciation(line);
+  }
+
   // the punjabi styling
   if (selectedLanguage === `${prayerName}Punjabi`) {
     return <p className={`${punjabiStyle}`}>{line}</p>;
@@ -34,15 +76,19 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
     // if its an even line (an actual meaning) then apply the meaning styles
     if (indexIsEven) {
       return (
-        <p
+        <div
           className={`${baseStyle} ${englishMeaningStyle} text-orange-400 mt-12 lg:mt-16 ${
             // the check if the line is really long and if so add more margin
             // this will be used in prayers like the ardaas where it is very long grouped text
             line.length >= 150 ? "mt-20 lg:mt-32 xl:mt-20" : "mt-10"
           }`}
         >
-          {line}
-        </p>
+          {/* {line} */}
+          {/* {processedLine} */}
+
+          {/* checks if it is an array and then processes it accordingly */}
+          {Array.isArray(processedLine) ? processedLine : line}
+        </div>
       );
     }
   }
