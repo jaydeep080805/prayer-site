@@ -306,10 +306,10 @@ const sohilaaTranslation = {
     "nit nit jeeaRe samaaleean dhekhaigaa dhevanahaar || tere dhaanai keemat naa pavai tis dhaate kavan sumaar ||2||",
     "Day after day, He cares for His beings; the Great Giver watches over all. Your Gifts cannot be appraised; how can anyone compare to the Giver? ||2||",
 
-    "sa(n)bat saahaa likhiaa mil kar paavahu tel || dheh sajan aseesaReeaa jiau hovai saahib siau mel ||3||",
+    "sanbat saahaa likhiaa mil kar paavahu tel || dheh sajan aseesaReeaa jiau hovai saahib siau mel ||3||",
     "The day of my wedding is pre-ordained. Come, gather together and pour the oil over the threshold. My friends, give me your blessings, that I may merge with my Lord and Master. ||3||",
 
-    "ghar ghar eho paahuchaa sadhaRe nit pava(n)n || sadhanahaaraa simareeaai naanak se dheh aava(n)n ||4||1||",
+    "ghar ghar eho paahuchaa sadhaRe nit pavann || sadhanahaaraa simareeaai naanak se dheh aavann ||4||1||",
     "Unto each and every home, into each and every heart, this summons is sent out; the call comes each and every day. Remember in meditation the One who summons us; 0: Nanak, that day is drawing near! ||4||1||",
 
     "raag aasaa mahalaa pehilaa ||",
@@ -327,55 +327,55 @@ const sohilaaTranslation = {
     "raag dhanaasaree mahalaa pehilaa",
     "Raag Dhanaasaree, First Mehla:",
 
-    "gagan mai thaal rav cha(n)dh dheepak bane taarikaa ma(n)ddal janak motee || dhoop malaanalo. pavan chavaro kare sagal banarai foola(n)t jotee ||1||",
+    "gagan mai thaal rav chandh dheepak bane taarikaa manddal janak motee || dhoop malaanalo. pavan chavaro kare sagal banarai foolant jotee ||1||",
     "Upon that cosmic plate of the sky, the sun and the moon are the lamps. The stars and their orbs are the studded pearls. The fragrance of sandalwood in the air is the temple incense, and the wind is the fan. All the plants of the world are the altar flowers in offering to You, O Luminous Lord. ||1||",
 
-    "kaisee aaratee hoi || bhav kha(n)ddanaa teree aaratee || anahataa sabadh vaaja(n)t bheree ||1|| rahaau ||",
+    "kaisee aaratee hoi || bhav khanddanaa teree aaratee || anahataa sabadh vaajant bheree ||1|| rahaau ||",
     "What a beautiful Aartee, lamp-lit worship service this is! O Destroyer of Fear, this is Your Ceremony of Light. The Unstruck Sound-current of the Shabad is the vibration of the temple drums. ||1||Pause||",
 
-    "sahas tav nain nan nain heh toh kau sahas moorat nanaa ek tuohee || sahas padh bimal nan ek padh ga(n)dh bin sahas tav ga(n)dh iv chalat mohee ||2||",
+    "sahas tav nain nan nain heh toh kau sahas moorat nanaa ek tuohee || sahas padh bimal nan ek padh gandh bin sahas tav gandh iv chalat mohee ||2||",
     "You have thousands of eyes, and yet You have no eyes. You have thousands of forms, and yet You do not have even one. You have thousands of Lotus Feet, and yet You do not have even one foot. You have no nose, but you have thousands of noses. This Play of Yours entrances me. ||2|||",
 
     "sabh meh jot jot hai soi || tis dhai chaanan sabh meh chaanan hoi || gur saakhee jot paragaT hoi || jo tis bhaavai su aaratee hoi ||3||",
     "Amongst all is the Light-You are that Light. By this Illumination, that Light is radiant within all. Through the Guru’s Teachings, the Light shines forth. That which is pleasing to Him is the lamp-lit worship service. ||3|||",
 
-    "har charan kaval makara(n)dh lobhit mano anadhinuo moh aahee piaasaa || kirapaa jal dheh naanak saari(n)g kau hoi jaa te terai nai vaasaa ||4||3||",
+    "har charan kaval makarandh lobhit mano anadhinuo moh aahee piaasaa || kirapaa jal dheh naanak saaring kau hoi jaa te terai nai vaasaa ||4||3||",
     "My mind is enticed by the honey-sweet Lotus Feet of the Lord. Day and night, I thirst for them. Bestow the Water of Your Mercy upon Nanak, the thirsty song-bird, so that he may come to dwell in Your Name. |14||3||",
 
     "raag gauRee poorabee mahalaa chauthhaa ||",
     "Raag Gauree Poorbee, Fourth Mehla:",
 
-    "kaam karodh nagar bahu. bhariaa mil saadhoo kha(n)ddal kha(n)ddaa he || poorab likhat likhe gur paiaa man har liv ma(n)ddal ma(n)ddaa he ||1||",
+    "kaam karodh nagar bahu. bhariaa mil saadhoo khanddal khanddaa he || poorab likhat likhe gur paiaa man har liv manddal manddaa he ||1||",
     "The body-village is filled to overflowing with anger and sexual desire; these were broken into bits when I met with the Holy Saint. By pre-ordained destiny, I have met with the Guru. I have entered into the realm of the Lord’s Love. ||1||",
 
-    "kar saadhoo a(n)julee pun vaddaa he || kar dda(n)ddaut pun vaddaa he ||1|| rahaau ||",
+    "kar saadhoo anjulee pun vaddaa he || kar ddanddaut pun vaddaa he ||1|| rahaau ||",
     "Greet the Holy Saint with your palms pressed together, this is an act of great merit. Bow down before Him; this is a virtuous action indeed. ||1||Pausell",
 
-    "saakat har ras saadh na jaaniaa tin a(n)tar haumai ka(n)ddaa he || jiau jiau chaleh chubhai dhukh paaveh jamakaal saheh sir dda(n)ddaa he ||2||",
+    "saakat har ras saadh na jaaniaa tin antar haumai kanddaa he || jiau jiau chaleh chubhai dhukh paaveh jamakaal saheh sir ddanddaa he ||2||",
     "The wicked shaaktas, the faithless cynics, do not know the Taste of the Lord’s Sublime Essence. The thorn of egotism is embedded deep within them. The more they walk away, the deeper it pierces them, and the more they suffer in pain, until finally, the Messenger of Death smashes his club against their heads. ||2||",
 
-    "har jan har har naam samaane dhukh janam maran bhav kha(n)ddaa he || abinaasee purakh paiaa paramesar bahu sobh kha(n)dd brahama(n)ddaa he ||3||",
+    "har jan har har naam samaane dhukh janam maran bhav khanddaa he || abinaasee purakh paiaa paramesar bahu sobh khandd brahamanddaa he ||3||",
     "The humble servants of the Lord are absorbed in the Name of the Lord, Har, Har. The pain of birth and the fear of death are eradicated. They have found the Imperishable Supreme Being, the Transcendent Lord God, and they receive great honor throughout all the worlds and realms. ||3||",
 
-    "ham gareeb masakeen prabh tere har raakh raakh vadd vaddaa he || jan naanak naam adhaar Tek hai har naame hee sukh ma(n)ddaa he ||4||4||",
+    "ham gareeb masakeen prabh tere har raakh raakh vadd vaddaa he || jan naanak naam adhaar Tek hai har naame hee sukh manddaa he ||4||4||",
     "I am poor and meek, God, but I belong to You! Save me-please save me, O Greatest of the Great! Servant Nanak takes the Sustenance and Support of the Naam. In the Name of the Lord, he enjoys celestial peace. ||4|14||",
 
     "raag gauRee poorabee mahalaa panjavaa ||",
     "Raag Gauree Poorbee, Fifth Mehla:",
 
-    "karau bena(n)tee sunahu mere meetaa sa(n)t Tahal kee belaa || e’eehaa khaaT chalahu har laahaa. aagai basan suhelaa ||1||",
+    "karau benantee sunahu mere meetaa sant Tahal kee belaa || e’eehaa khaaT chalahu har laahaa. aagai basan suhelaa ||1||",
     "Listen, my friends, I beg of you: now is the time to serve the Saints! In this world, earn the profit of the Lord’s Name, and hereafter, you shall dwell in peace. ||1||",
 
     "aaudh ghaTai dhinas rainaare || man gur mil kaaj savaare ||1|| rahaau ||",
     "This life is diminishing, day and night. Meeting with the Guru, your affairs shall be resolved. ||1||Pausell",
 
-    "eih sa(n)saar bikaar sa(n)se meh tario braham giaanee || jiseh jagai peeaavai ih ras akath kathaa tin jaanee ||2||",
+    "eih sansaar bikaar sanse meh tario braham giaanee || jiseh jagai peeaavai ih ras akath kathaa tin jaanee ||2||",
     "This world is engrossed in corruption and cynicism. Only those who know God are saved. Only those who are awakened by the Lord to drink in this Sublime Essence, come to know the Unspoken Speech of the Lord. II2||",
 
     "jaa kau aae soiee bihaajhahu har gur te maneh baseraa || nij ghar mahal paavahu sukh sahaje bahur na hoigo feraa ||3||",
     "Purchase only that for which you have come into the world, and through the Guru, the Lord shall dwell within your mind. Within the home of your own inner being, you shall obtain the Mansion of the Lord’s Presence with intuitive ease. You shall not be consigned again to the wheel of reincarnation. ||3||",
 
-    "a(n)tarajaamee purakh bidhaate saradhaa man kee poore || naanak dhaas ihai sukh maagai mo kau kar sa(n)tan kee dhoore ||4||5||",
+    "antarajaamee purakh bidhaate saradhaa man kee poore || naanak dhaas ihai sukh maagai mo kau kar santan kee dhoore ||4||5||",
     "O Inner-knower, Searcher of Hearts, O Primal Being, Architect of Destiny: please fulfill this yearning of my mind. Nanak, Your slave, begs for this happiness: let me be the dust of the feet of the Saints. ||4||5||",
   ],
 };
