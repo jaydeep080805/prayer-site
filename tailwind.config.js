@@ -12,7 +12,9 @@ export default {
     extend: {
       spacing: {
         160: "60rem",
+        180: "70rem",
         200: "80rem",
+        220: "90rem",
       },
     },
   },
