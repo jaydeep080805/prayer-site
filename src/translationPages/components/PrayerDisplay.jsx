@@ -46,7 +46,7 @@ function PrayerDisplay({ scripts, prayerName }) {
     <div className="flex justify-center md:pt-20 md:mx-96">
       {/* this div will also align everything in the center including the youtube video */}
       {/* set the background to white and center text */}
-      <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-160 xl:min-w-200">
+      <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-180 xl:min-w-220">
         <iframe
           className="lg:w-[30rem] lg:h-[15rem] xl:w-[40rem] xl:h-[20rem]"
           src={youtubeVideo}
@@ -54,7 +54,7 @@ function PrayerDisplay({ scripts, prayerName }) {
         />
 
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
-        <div className="m-5">
+        <div className="m-5 max-w-80 lg:max-w-none">
           {/* render the language buttons */}
           <LanguageSwitcher onLanguageChange={handleLanguageChange} />
           <PrayerContent
