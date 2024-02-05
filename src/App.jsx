@@ -15,6 +15,15 @@ import SohillaSahib from "./translationPages/SohillaSahib";
 
 import SikhGurusNavigation from "./sikhGurus/SikhGurusNavigation";
 import GuruNanak from "./sikhGurus/GuruNanak";
+import GuruAngad from "./sikhGurus/GuruAngad";
+import GuruAmarDas from "./sikhGurus/GuruAmarDas";
+import GuruRamDas from "./sikhGurus/GuruRamDas";
+import GuruArjan from "./sikhGurus/GuruArjan";
+import GuruHargobind from "./sikhGurus/GuruHargobind";
+import GuruHarRai from "./sikhGurus/GuruHarRai";
+import GuruHarKrishan from "./sikhGurus/GuruHarKrishan";
+import GuruTeghBahadur from "./sikhGurus/GuruTeghBahadur";
+import GuruGobind from "./sikhGurus/GuruGobind";
 
 function App() {
   return (
@@ -38,7 +47,20 @@ function App() {
 
             {/* gurus */}
             <Route path="/sikh-gurus" element={<SikhGurusNavigation />} />
+
             <Route path="/guru-nanak" element={<GuruNanak />} />
+            <Route path="/guru-angad" element={<GuruAngad />} />
+            <Route path="/guru-amar" element={<GuruAmarDas />} />
+
+            <Route path="/guru-ramdas" element={<GuruRamDas />} />
+            <Route path="/guru-arjan" element={<GuruArjan />} />
+            <Route path="/guru-hargobind" element={<GuruHargobind />} />
+
+            <Route path="/guru-harrai" element={<GuruHarRai />} />
+            <Route path="/guru-harkrishan" element={<GuruHarKrishan />} />
+            <Route path="/guru-tegh" element={<GuruTeghBahadur />} />
+
+            <Route path="/guru-gobind" element={<GuruGobind />} />
           </Routes>
         </div>
         <Footer />
