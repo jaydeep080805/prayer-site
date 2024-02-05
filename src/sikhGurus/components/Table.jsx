@@ -10,13 +10,13 @@ function Table({
   successor,
 }) {
   return (
-    <table className="w-full text-left border-collapse border border-gray-200 mt-5">
+    <table className="text-left border-collapse border border-gray-200 mt-5 mx-auto">
       <thead>
         <tr>
-          <th className="px-4 py-2 bg-gray-300 border-b dark:bg-black">
+          <th className="px-4 py-2 bg-gray-300 border-b dark:bg-gray-800">
             Attribute
           </th>
-          <th className="px-4 py-2 bg-gray-300 border-b dark:bg-black">
+          <th className="px-4 py-2 bg-gray-300 border-b dark:bg-gray-800">
             Information
           </th>
         </tr>
