@@ -14,6 +14,7 @@ import ArdasSahib from "./translationPages/ArdasSahib";
 import SohillaSahib from "./translationPages/SohillaSahib";
 
 import SikhGurusNavigation from "./sikhGurus/SikhGurusNavigation";
+import GuruNanak from "./sikhGurus/GuruNanak";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
 
             {/* gurus */}
             <Route path="/sikh-gurus" element={<SikhGurusNavigation />} />
+            <Route path="/guru-nanak" element={<GuruNanak />} />
           </Routes>
         </div>
         <Footer />
