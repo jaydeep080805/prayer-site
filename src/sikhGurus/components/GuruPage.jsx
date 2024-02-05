@@ -23,8 +23,8 @@ function GuruPage({ image, guruName }) {
   } = guruInformation[guruName];
 
   return (
-    <div className="flex flex-col justify-center items-center rounded-xl mx-2 mt-10 lg:mx-40 xl:mx-60 dark:text-white dark:bg-gray-900">
-      <div className="shadow-xl rounded-lg">
+    <div className="flex flex-col justify-center items-center rounded-xl mt-10 lg:px-12 lg:mx-20 xl:px-12 xl:mx-40 dark:text-white dark:bg-gray-900">
+      <div className="shadow-xl px-2 rounded-lg">
         {/* guru image */}
         <GuruImage imageSrc={image} />
 

@@ -5,7 +5,7 @@ function InformationText({ heading, text, isQuote = false, name }) {
     // adds margin around the side and top to create space
     <div className="mx-3 my-20 lg:my-10">
       {/* heading config */}
-      <div className="text-4xl underline capitalize font-heading font-bold">
+      <div className="text-4xl underline capitalize font-heading font-bold text-orange-400">
         {heading}
       </div>
 
