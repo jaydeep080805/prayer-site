@@ -54,7 +54,7 @@ function PrayerDisplay({ scripts, prayerName }) {
         />
 
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
-        <div className="m-5 max-w-80 lg:max-w-none">
+        <div className="m-5 max-w-80 lg:max-w-160 xl:max-w-200">
           {/* render the language buttons */}
           <LanguageSwitcher onLanguageChange={handleLanguageChange} />
           <PrayerContent

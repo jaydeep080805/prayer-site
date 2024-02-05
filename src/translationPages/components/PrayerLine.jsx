@@ -9,22 +9,22 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
 
   // set the base styling
   // will be used for english and the normal (non bold) text in english meaning
-  const baseStyle = "text-2xl md:mt-3";
+  const baseStyle = "text-xl md:text-2xl md:mt-3 break-words";
   // keeps the same font size for pubjabi but removed spacing
-  const punjabiStyle = "text-2xl m-0";
+  const punjabiStyle = "text-xl md:text-2xl m-0 break-words";
 
   // sets the actual meanings to bold
-  const englishMeaningStyle = "font-bold";
+  const englishMeaningStyle = "font-bold break-words";
 
   // sets the heading styles
   const englishMeaningHeading =
-    "text-5xl m-3 my-5 pt-16 underline font-bold font-heading";
+    "text-3xl md:text-5xl m-3 my-5 pt-16 underline font-bold font-heading";
 
   const wordWithPronunciation = (line) => {
     // filters the array by " " and "."
     const words = line.split(/[\s.]+/);
 
-    // loopp through the words
+    // loop through the words
     const newLine = words.map((word, wordIndex) => {
       // convert the string to lowercase
       const pronunciation = pronunciationDict[word.toLowerCase()];
