@@ -1,16 +1,21 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-function FooterMenuItem({ name }) {
+function FooterMenuItem({ name, pageLink }) {
   // add text styling
   return (
-    <p className="cursor-pointer hover:text-orange-300 transition duration-200">
+    <Link
+      to={pageLink}
+      className="cursor-pointer hover:text-orange-300 transition duration-200"
+    >
       {name}
-    </p>
+    </Link>
   );
 }
 
 FooterMenuItem.propTypes = {
   name: PropTypes.string.isRequired,
+  pageLink: PropTypes.string,
 };
 
 export default FooterMenuItem;
