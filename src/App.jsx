@@ -24,6 +24,7 @@ import GuruHarRai from "./sikhGurus/GuruHarRai";
 import GuruHarKrishan from "./sikhGurus/GuruHarKrishan";
 import GuruTeghBahadur from "./sikhGurus/GuruTeghBahadur";
 import GuruGobind from "./sikhGurus/GuruGobind";
+import JaapSahib from "./translationPages/JaapSahib";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
             <Route path="/raehraas-sahib" element={<RaehraasSahib />} />
             <Route path="/ardaas-sahib" element={<ArdasSahib />} />
             <Route path="/sohilaa-sahib" element={<SohillaSahib />} />
+
+            <Route path="/jaap-sahib" element={<JaapSahib />} />
 
             {/* gurus */}
             <Route path="/sikh-gurus" element={<SikhGurusNavigation />} />
