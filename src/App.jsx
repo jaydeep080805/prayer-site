@@ -25,6 +25,7 @@ import GuruHarKrishan from "./sikhGurus/GuruHarKrishan";
 import GuruTeghBahadur from "./sikhGurus/GuruTeghBahadur";
 import GuruGobind from "./sikhGurus/GuruGobind";
 import JaapSahib from "./translationPages/JaapSahib";
+import SikhNavigationPage from "./sikhism/SikhNavigationPage";
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
             <Route path="/guru-tegh" element={<GuruTeghBahadur />} />
 
             <Route path="/guru-gobind" element={<GuruGobind />} />
+
+            {/* sikhism */}
+            <Route path="/sikhism" element={<SikhNavigationPage />} />
           </Routes>
         </div>
         <Footer />
