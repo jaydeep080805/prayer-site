@@ -3,10 +3,10 @@ import SikhNavigationButtons from "./SikhNavigationButtons";
 
 function SikhNavigationPage() {
   return (
-    <div className="h-screen">
+    <div>
       <ButtonStructure buttons={<SikhNavigationButtons />} />
     </div>
   );
 }
 
-export default SikhNavigationPage;  
+export default SikhNavigationPage;

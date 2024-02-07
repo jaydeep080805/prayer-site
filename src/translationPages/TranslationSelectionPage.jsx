@@ -4,7 +4,7 @@ import TranslationSelectionButtons from "./components/TranslationSelectionButton
 function TranslationSelectionPage() {
   // passes through all the buttons to the button structure to reduce repetitiveness
   return (
-    <div className="h-screen">
+    <div>
       <ButtonStructure buttons={<TranslationSelectionButtons />} />
     </div>
   );

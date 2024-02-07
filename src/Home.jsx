@@ -2,7 +2,7 @@ import HomeScreen from "./homeScreenElements/HomeScreen";
 
 function Home() {
   return (
-    <div className="h-screen">
+    <div>
       <HomeScreen />;
     </div>
   );
