@@ -30,6 +30,7 @@ import AboutSikhism from "./sikhism/AboutSikhism";
 import PillarsOfSikhism from "./sikhism/PillarsOfSikhism";
 import FiveK from "./sikhism/FiveK";
 import GranthSahib from "./sikhism/GranthSahib";
+import Turban from "./sikhism/Turban";
 
 function App() {
   return (
@@ -74,7 +75,9 @@ function App() {
             <Route path="/sikhism" element={<SikhNavigationPage />} />
             <Route path="/sikhism/about-sikhism" element={<AboutSikhism />} />
             <Route path="/sikhism/pillars" element={<PillarsOfSikhism />} />
+
             <Route path="/sikhism/fivek" element={<FiveK />} />
+            <Route path="/sikhism/turban" element={<Turban />} />
             <Route path="/sikhism/granth-sahib" element={<GranthSahib />} />
           </Routes>
         </div>

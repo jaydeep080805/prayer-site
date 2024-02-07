@@ -9,4 +9,4 @@ function SikhNavigationPage() {
   );
 }
 
-export default SikhNavigationPage;
+export default SikhNavigationPage;  
