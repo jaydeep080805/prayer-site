@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-function SpanSection({ text, spanText = null }) {
+function Section({ text, spanText = null }) {
   return (
     // each section of text
-    <div className="xl:text-xl">
+    <div className="text-lg xl:text-xl">
       {/* allows for additional span text for sections like 5 k's */}
       <span className="font-bold">{spanText} </span>
       {text}
@@ -11,9 +11,9 @@ function SpanSection({ text, spanText = null }) {
   );
 }
 
-SpanSection.propTypes = {
+Section.propTypes = {
   text: PropTypes.string.isRequired,
   spanText: PropTypes.string,
 };
 
-export default SpanSection;
+export default Section;

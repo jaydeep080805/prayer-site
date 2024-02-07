@@ -8,7 +8,7 @@ function ContentWithSubheading({ subheading, text }) {
       {/* sets the subheading */}
       <Subheading text={subheading} />
       {/* wrap the text in a div so it spaces correctly */}
-      <div>{text}</div>
+      <div className="text-lg lg:text-xl">{text}</div>
     </div>
   );
 }
