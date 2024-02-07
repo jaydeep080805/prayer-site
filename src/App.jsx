@@ -26,6 +26,10 @@ import GuruTeghBahadur from "./sikhGurus/GuruTeghBahadur";
 import GuruGobind from "./sikhGurus/GuruGobind";
 import JaapSahib from "./translationPages/JaapSahib";
 import SikhNavigationPage from "./sikhism/SikhNavigationPage";
+import AboutSikhism from "./sikhism/AboutSikhism";
+import PillarsOfSikhism from "./sikhism/PillarsOfSikhism";
+import FiveK from "./sikhism/FiveK";
+import GranthSahib from "./sikhism/GranthSahib";
 
 function App() {
   return (
@@ -68,6 +72,10 @@ function App() {
 
             {/* sikhism */}
             <Route path="/sikhism" element={<SikhNavigationPage />} />
+            <Route path="/sikhism/about-sikhism" element={<AboutSikhism />} />
+            <Route path="/sikhism/pillars" element={<PillarsOfSikhism />} />
+            <Route path="/sikhism/fivek" element={<FiveK />} />
+            <Route path="/sikhism/granth-sahib" element={<GranthSahib />} />
           </Routes>
         </div>
         <Footer />

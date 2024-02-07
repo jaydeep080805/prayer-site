@@ -3,13 +3,12 @@ import Button from "../../components/Button";
 function SikhNavigationButtons() {
   return (
     <>
-      <Button pageLink={"./"} name={"about sikhism"} />
-      <Button pageLink={"./"} name={"pillars of sikhism"} />
-      <Button pageLink={"./"} name={"five k's"} />
+      <Button pageLink={"./about-sikhism"} name={"about sikhism"} />
+      <Button pageLink={"./pillars"} name={"pillars of sikhism"} />
+      <Button pageLink={"./fivek"} name={"five k's"} />
 
-      <Button pageLink={"./"} name={"parts of khanda"} />
-      <Button pageLink={"./"} name={"significance of turban"} />
-      <Button pageLink={"./"} name={"about sikhism"} />
+      <Button pageLink={"./turban"} name={"significance of turban"} />
+      <Button pageLink={"./granth-sahib"} name={"guru granth sahib"} />
     </>
   );
 }
