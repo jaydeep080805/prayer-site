@@ -1,9 +1,7 @@
+import EventTable from "./EventTable";
+
 function SikhCalendar() {
-  return (
-    <div>
-      <div></div>
-    </div>
-  );
+  return <EventTable />;
 }
 
 export default SikhCalendar;
