@@ -6,7 +6,7 @@ function Subheading({ text }) {
 }
 
 Subheading.propTypes = {
-  text: PropTypes.string.isRequires,
+  text: PropTypes.string.isRequired,
 };
 
 export default Subheading;
