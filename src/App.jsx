@@ -32,13 +32,14 @@ import FiveK from "./sikhism/FiveK";
 import GranthSahib from "./sikhism/GranthSahib";
 import Turban from "./sikhism/Turban";
 import Faq from "./sikhism/Faq";
+import SikhCalendar from "./calendar/SikhCalendar";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10">
+        <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10 dark:text-white">
           <Routes>
             {/* home screen */}
             <Route path="/" element={<Home />} />
@@ -74,13 +75,16 @@ function App() {
 
             {/* sikhism */}
             <Route path="/sikhism" element={<SikhNavigationPage />} />
-            <Route path="/sikhism/about-sikhism" element={<AboutSikhism />} />
-            <Route path="/sikhism/pillars" element={<PillarsOfSikhism />} />
+            <Route path="/about-sikhism" element={<AboutSikhism />} />
+            <Route path="/pillars" element={<PillarsOfSikhism />} />
 
-            <Route path="/sikhism/fivek" element={<FiveK />} />
-            <Route path="/sikhism/turban" element={<Turban />} />
-            <Route path="/sikhism/granth-sahib" element={<GranthSahib />} />
-            <Route path="/sikhism/faq" element={<Faq />} />
+            <Route path="/fivek" element={<FiveK />} />
+            <Route path="/turban" element={<Turban />} />
+            <Route path="/granth-sahib" element={<GranthSahib />} />
+            <Route path="/faq" element={<Faq />} />
+
+            {/* calendar */}
+            <Route path="/calendar" element={<SikhCalendar />} />
           </Routes>
         </div>
         <Footer />
