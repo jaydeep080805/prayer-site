@@ -9,6 +9,7 @@ function SikhNavigationButtons() {
 
       <Button pageLink={"./turban"} name={"significance of turban"} />
       <Button pageLink={"./granth-sahib"} name={"guru granth sahib"} />
+      <Button pageLink={"./faq"} name={"questions about sikhism"} />
     </>
   );
 }
