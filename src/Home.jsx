@@ -3,7 +3,7 @@ import HomeScreen from "./homeScreenElements/HomeScreen";
 function Home() {
   return (
     <div>
-      <HomeScreen />;
+      <HomeScreen />
     </div>
   );
 }
