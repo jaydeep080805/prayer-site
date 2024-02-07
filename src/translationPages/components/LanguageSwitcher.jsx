@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import TranslationButton from "./translationButton";
+import TranslationButton from "./TranslationButton";
 import ButtonStructure from "../../components/ButtonStructure";
 
 function LanguageSwitcher({ onLanguageChange }) {
