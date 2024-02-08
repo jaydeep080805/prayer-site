@@ -6,10 +6,10 @@ function FooterMenu() {
     <div className="flex flex-col md:flex-row gap-6 text-center capitalize">
       <FooterMenuItem name={"home"} pageLink={"./"} />
       <FooterMenuItem name={"about"} pageLink={"/about"} />
-      <FooterMenuItem name={"contact"} />
-      <FooterMenuItem name={"privacy"} />
+      <FooterMenuItem name={"contact"} pageLink={"/contact"} />
+      <FooterMenuItem name={"privacy"} pageLink={"/privacy-policy"} />
     </div>
   );
+  
 }
-
 export default FooterMenu;
