@@ -1,6 +1,6 @@
 import ContentWithSubheading from "../components/ContentWithSubheading";
 import Section from "../components/Section";
-import PageLayout from "./PageLayout";
+import PageLayout from "../components/PageLayout";
 
 function GranthSahib() {
   return (

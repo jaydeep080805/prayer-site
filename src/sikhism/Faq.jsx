@@ -1,5 +1,5 @@
 import ContentWithSubheading from "../components/ContentWithSubheading";
-import PageLayout from "./PageLayout";
+import PageLayout from "../components/PageLayout";
 
 function Faq() {
   return (

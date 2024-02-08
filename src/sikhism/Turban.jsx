@@ -1,5 +1,5 @@
 import Section from "../components/Section";
-import PageLayout from "./PageLayout";
+import PageLayout from "../components/PageLayout";
 import ContentwithSubheading from "../components/ContentWithSubheading";
 
 function Turban() {

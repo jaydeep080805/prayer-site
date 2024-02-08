@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Heading from "../components/Heading";
+import Heading from "./Heading";
 
 // use the react "children" property to allow components to be passed through as if it were a div
 function PageLayout({ heading, children }) {
