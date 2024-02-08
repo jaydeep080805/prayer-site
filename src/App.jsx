@@ -34,6 +34,7 @@ import Turban from "./sikhism/Turban";
 import Faq from "./sikhism/Faq";
 import SikhCalendar from "./calendar/SikhCalendar";
 import AboutPage from "./footer/AboutPage";
+import ContactPage from "./footer/ContactPAge";
 
 function App() {
   return (
@@ -89,6 +90,7 @@ function App() {
 
             {/* About */}
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />

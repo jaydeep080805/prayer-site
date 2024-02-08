@@ -35,7 +35,7 @@ function FormComponent({
   );
 }
 
-function Form() {
+function Form({ onEmailSend }) {
   const [formData, setFormData] = useState({
     to: "",
     subject: "",
@@ -51,9 +51,8 @@ function Form() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formData);
 
-    fetch("http://localhost:3000/send-email", {
+    fetch("http://192.168.0.195:3000/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -61,7 +60,7 @@ function Form() {
       body: JSON.stringify(formData),
     })
       .then((response) => response.json())
-      .then((data) => console.log(data))
+      .then(() => onEmailSend(true))
       .catch((error) => console.error("Error:", error));
   }
 
@@ -97,10 +96,23 @@ function Form() {
 }
 
 function ContactPage() {
+  const [emailHasSent, setEmailHasSent] = useState(false);
+
+  const handleEmailSend = (status) => {
+    setEmailHasSent(status);
+  };
+
   return (
-    <PageLayout heading={"Contact"}>
-      <Form />
-    </PageLayout>
+    <div>
+      {emailHasSent && (
+        <div className="w-full text-center mx-auto bg-green-500 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-green-600 lg:bg-green-500">
+          Email succesfully sent
+        </div>
+      )}
+      <PageLayout heading={"Contact"}>
+        <Form onEmailSend={handleEmailSend} />
+      </PageLayout>
+    </div>
   );
 }
 
@@ -110,6 +122,10 @@ FormComponent.propTypes = {
   value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   isMessage: PropTypes.bool,
+};
+
+Form.propTypes = {
+  onEmailSend: PropTypes.func.isRequired,
 };
 
 export default ContactPage;
