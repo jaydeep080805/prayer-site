@@ -1,4 +1,4 @@
-import guruRamDas from "../assets/guru-ramdas.jpg";
+import guruRamDas from "../assets/gurus/guru-ramdas.jpg";
 import GuruPage from "./components/GuruPage";
 
 function GuruRamDas() {

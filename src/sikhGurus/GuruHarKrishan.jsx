@@ -1,4 +1,4 @@
-import harKrishan from "../assets/harkrishan.jpg";
+import harKrishan from "../assets/gurus/harkrishan.jpg";
 import GuruPage from "./components/GuruPage";
 
 function GuruHarKrishan() {

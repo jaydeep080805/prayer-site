@@ -1,4 +1,4 @@
-import harRai from "../assets/harrai.jpeg";
+import harRai from "../assets/gurus/harrai.jpeg";
 import GuruPage from "./components/GuruPage";
 
 function GuruHarRai() {

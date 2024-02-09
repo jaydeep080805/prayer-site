@@ -1,4 +1,4 @@
-import teg from "../assets/tegh.jpg";
+import teg from "../assets/gurus/tegh.jpg";
 import GuruPage from "./components/GuruPage";
 
 function GuruTeghBahadur() {

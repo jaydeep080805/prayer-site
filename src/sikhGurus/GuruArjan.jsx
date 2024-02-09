@@ -1,4 +1,4 @@
-import guruArjan from "../assets/guru-arjan.jpeg";
+import guruArjan from "../assets/gurus/guru-arjan.jpeg";
 import GuruPage from "./components/GuruPage";
 
 function GuruArjan() {

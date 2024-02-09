@@ -1,4 +1,4 @@
-import gobind from "../assets/gobind.jpeg";
+import gobind from "../assets/gurus/gobind.jpeg";
 import GuruPage from "./components/GuruPage";
 
 function GuruGobind() {

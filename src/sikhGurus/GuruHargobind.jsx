@@ -1,4 +1,4 @@
-import guruHargobind from "../assets/guru-hargobind.jpeg";
+import guruHargobind from "../assets/gurus/guru-hargobind.jpeg";
 import GuruPage from "./components/GuruPage";
 
 function GuruHargobind() {

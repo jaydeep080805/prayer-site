@@ -1,4 +1,4 @@
-import guruNanak from "../assets/guru-nanak.webp";
+import guruNanak from "../assets/gurus/guru-nanak.webp";
 import GuruPage from "./components/GuruPage";
 
 function GuruNanak() {
