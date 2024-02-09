@@ -35,6 +35,7 @@ import Faq from "./sikhism/Faq";
 import SikhCalendar from "./calendar/SikhCalendar";
 import AboutPage from "./footer/AboutPage";
 import ContactPage from "./footer/ContactPage";
+import Privacy from "./footer/Privacy";
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
             {/* About */}
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
           </Routes>
         </div>
         <Footer />
