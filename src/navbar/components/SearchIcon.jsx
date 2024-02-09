@@ -1,6 +1,14 @@
+import { Tooltip } from "react-tooltip";
+
 function SearchIcon() {
   return (
-    <i className="fa-solid fa-magnifying-glass text-orange-400 cursor-pointer"></i>
+    <>
+      <i
+        id="searchIcon"
+        className="fa-solid fa-magnifying-glass text-orange-400 cursor-pointer"
+      ></i>
+      <Tooltip anchorSelect="#searchIcon">Currently Disabled</Tooltip>
+    </>
   );
 }
 
