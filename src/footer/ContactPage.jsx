@@ -37,7 +37,7 @@ function FormComponent({
 
 function Form({ onEmailSend }) {
   const [formData, setFormData] = useState({
-    to: "",
+    email: "",
     subject: "",
     message: "",
   });
@@ -52,7 +52,7 @@ function Form({ onEmailSend }) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    fetch("http://192.168.0.195:3000/send-email", {
+    fetch("https://sikh-essence-backend.up.railway.app/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -60,8 +60,22 @@ function Form({ onEmailSend }) {
       body: JSON.stringify(formData),
     })
       .then((response) => response.json())
-      .then(() => onEmailSend(true))
-      .catch((error) => console.error("Error:", error));
+      .then((data) => {
+        // if the emails are sent successfully
+        if (data.message === "Emails sent successfully") {
+          onEmailSend("success");
+          // set the inputs to be empty
+          setFormData({ email: "", subject: "", message: "" });
+        }
+      })
+      // if there are any errors
+      .catch((error) => {
+        // log the error
+        console.error("Error:", error);
+
+        // show an error message
+        onEmailSend("error");
+      });
   }
 
   return (
@@ -70,7 +84,7 @@ function Form({ onEmailSend }) {
         label={"email"}
         inputType="email"
         value={formData.email}
-        onChange={(e) => handleChange(e, "to")}
+        onChange={(e) => handleChange(e, "email")}
       />
 
       <FormComponent
@@ -96,19 +110,30 @@ function Form({ onEmailSend }) {
 }
 
 function ContactPage() {
-  const [emailHasSent, setEmailHasSent] = useState(false);
+  // remembers if an email has been sent
+  const [emailHasSent, setEmailHasSent] = useState("");
 
+  // sets the emailHasSent variable
   const handleEmailSend = (status) => {
     setEmailHasSent(status);
   };
 
   return (
     <div>
-      {emailHasSent && (
+      {/* if the email sent */}
+      {emailHasSent === "success" && (
         <div className="w-full text-center mx-auto bg-green-500 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-green-600 lg:bg-green-500">
           Email succesfully sent
         </div>
       )}
+
+      {/* if there was an error sending the email */}
+      {emailHasSent === "error" && (
+        <div className="w-full text-center mx-auto bg-red-500 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-red-600 lg:bg-red-500">
+          Error sending email
+        </div>
+      )}
+
       <PageLayout heading={"Contact"}>
         <Form onEmailSend={handleEmailSend} />
       </PageLayout>
