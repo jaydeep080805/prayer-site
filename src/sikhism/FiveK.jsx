@@ -7,21 +7,21 @@ function FiveK() {
       <Section
         spanText={"Kesh (Uncut Hair) - "}
         text={
-          "Kesh refers to the practice of allowing one&apos;s hair to grow naturally without cutting it. This symbolizes acceptance of God&apos;s will, respect for the perfection of God&apos;s creation, and a departure from vanity and ego. The hair is usually covered with a turban (Dastar) for men, and a headscarf for women, signifying dignity, integrity, and respect."
+          "Kesh refers to the practice of allowing one's hair to grow naturally without cutting it. This symbolizes acceptance of God's will, respect for the perfection of God's creation, and a departure from vanity and ego. The hair is usually covered with a turban (Dastar) for men, and a headscarf for women, signifying dignity, integrity, and respect."
         }
       />
 
       <Section
         spanText={"Kara (Steel Bracelet) - "}
         text={
-          "The Kara is a steel bracelet worn on the wrist. It serves as a reminder to always remember God and to act in accordance with the Guru&apos;s teachings. The circular shape represents the unity and eternity of God, and wearing it on the wrist signifies restraint from wrong actions and dedication to duty."
+          "The Kara is a steel bracelet worn on the wrist. It serves as a reminder to always remember God and to act in accordance with the Guru's teachings. The circular shape represents the unity and eternity of God, and wearing it on the wrist signifies restraint from wrong actions and dedication to duty."
         }
       />
 
       <Section
         spanText={"Kanga (Wooden Comb) - "}
         text={
-          "A Kanga is a small wooden comb used to keep the hair neat and tidy, symbolizing cleanliness, order, and discipline. It represents the importance of maintaining a physical and spiritual cleanliness, and the comb&apos;s presence in the hair serves as a constant reminder to keep one&apos;s life free of tangles of falsehood and immorality."
+          "A Kanga is a small wooden comb used to keep the hair neat and tidy, symbolizing cleanliness, order, and discipline. It represents the importance of maintaining a physical and spiritual cleanliness, and the comb's presence in the hair serves as a constant reminder to keep one's life free of tangles of falsehood and immorality."
         }
       />
 
@@ -35,7 +35,7 @@ function FiveK() {
       <Section
         spanText={"Kirpan (Ceremonial Sword) - "}
         text={
-          "The Kirpan is a ceremonial sword that symbolizes a Sikh&apos;s duty to stand against injustice and to protect the weak and oppressed. It represents courage, self-defense, and the struggle against tyranny. The Kirpan is a reminder of the warrior aspect of Sikhism, emphasizing the responsibility to uphold righteousness and the moral obligation to defend the rights of all beings."
+          "The Kirpan is a ceremonial sword that symbolizes a Sikh's duty to stand against injustice and to protect the weak and oppressed. It represents courage, self-defense, and the struggle against tyranny. The Kirpan is a reminder of the warrior aspect of Sikhism, emphasizing the responsibility to uphold righteousness and the moral obligation to defend the rights of all beings."
         }
       />
     </PageLayout>
