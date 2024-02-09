@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function GuruImage({ imageSrc }) {
+function Image({ imageSrc }) {
   return (
     <div className="flex justify-center mt-5">
       <img
@@ -12,8 +12,8 @@ function GuruImage({ imageSrc }) {
   );
 }
 
-GuruImage.propTypes = {
+Image.propTypes = {
   imageSrc: PropTypes.string.isRequired,
 };
 
-export default GuruImage;
+export default Image;

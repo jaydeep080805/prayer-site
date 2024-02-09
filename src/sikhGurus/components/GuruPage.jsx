@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import GuruImage from "./GuruImage";
+import Image from "../../components/Image";
 import Table from "./Table";
 import guruInformation from "../guruInformation/guruInformation";
 import InformationText from "./InformationText";
@@ -26,7 +26,7 @@ function GuruPage({ image, guruName }) {
     <div className="flex flex-col justify-center items-center rounded-xl mt-10 lg:px-12 lg:mx-20 xl:px-12 xl:mx-40 dark:text-white dark:bg-gray-900">
       <div className="shadow-xl px-2 rounded-lg">
         {/* guru image */}
-        <GuruImage imageSrc={image} />
+        <Image imageSrc={image} />
 
         {/* table component using destructered information */}
         <Table
