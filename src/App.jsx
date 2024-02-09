@@ -34,7 +34,7 @@ import Turban from "./sikhism/Turban";
 import Faq from "./sikhism/Faq";
 import SikhCalendar from "./calendar/SikhCalendar";
 import AboutPage from "./footer/AboutPage";
-import ContactPage from "./footer/ContactPAge";
+import ContactPage from "./footer/ContactPage";
 
 function App() {
   return (
