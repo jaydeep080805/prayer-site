@@ -16,7 +16,7 @@ function EventTable() {
       </thead>
       <tbody>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold lg:px-8">
             Maghi - Lohri
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -28,7 +28,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Guru Gobind Singh Birthday
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -39,7 +39,9 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">Holi</td>
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
+            Holi
+          </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
             Mar 25, 2024 (Monday)
           </td>
@@ -48,7 +50,9 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">Hola Mohalla</td>
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
+            Hola Mohalla
+          </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
             Mar 27, 2024 (Wednesday)
           </td>
@@ -57,7 +61,9 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">Vaisakhi</td>
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
+            Vaisakhi
+          </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
             Apr 13, 2024 (Saturday)
           </td>
@@ -67,7 +73,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Birthday of Guru Angad Dev
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -78,7 +84,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Martyrdom of Guru Arjan Dev Sahib
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -90,7 +96,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Birth of the Guru Granth
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -102,7 +108,9 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">Diwali</td>
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
+            Diwali
+          </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
             Nov 01, 2024 (Friday)
           </td>
@@ -111,7 +119,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Guru Nanak Birthday
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">
@@ -122,7 +130,7 @@ function EventTable() {
           </td>
         </tr>
         <tr>
-          <td className="px-2 py-2 border-b font-main lg:px-8">
+          <td className="px-2 py-2 border-b font-heading font-bold  lg:px-8">
             Martyrdom of Guru Tegh Bahadur Sahib
           </td>
           <td className="px-2 py-2 border-b font-main lg:px-8">

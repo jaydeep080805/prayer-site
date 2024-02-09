@@ -8,17 +8,15 @@ function ContentWithSubheading({ subheading, text, listItems, linkText }) {
       {/* sets the subheading */}
       <Subheading text={subheading} />
       {/* wrap the text in a div so it spaces correctly */}
-      <div className={`text-lg lg:text-xl ${listItems && "pb-3"}`}>
+      <div className={`text-lg lg:text-xl font-main ${listItems && "pb-3"}`}>
         {text}
 
         {/* check if there is a linktext variable */}
-        {linkText ? (
+        {linkText && (
           // create the a tag with the link
           <a className="text-orange-400" href={`mailto:${linkText}`}>
             {linkText}.
           </a>
-        ) : (
-          ""
         )}
       </div>
 

@@ -9,7 +9,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
 
   // set the base styling
   // will be used for english and the normal (non bold) text in english meaning
-  const baseStyle = "text-xl md:text-2xl md:mt-3 break-words";
+  const baseStyle = "font-main text-xl md:text-2xl md:mt-3 break-words";
   // keeps the same font size for pubjabi but removed spacing
   const punjabiStyle = "text-xl md:text-2xl m-0 break-words";
 
