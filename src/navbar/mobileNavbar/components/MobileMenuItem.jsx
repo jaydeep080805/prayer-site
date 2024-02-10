@@ -25,7 +25,7 @@ function MobileMenuItem({ name, pageLink, clickFunc }) {
 
   return (
     // use a div to set a default theme across all elements
-    <div className="text-orange-400 text-xl">
+    <div className="text-orange-400 text-xl font-main font-bold">
       {/* set the link and the i tag in a flex container so they're in the same line and spaced nicely (I think) */}
       <div className="flex justify-evenly items-center">
         <Link onClick={clickFunc} to={pageLink} className="capitalize text-2xl">
