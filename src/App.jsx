@@ -55,7 +55,8 @@ import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
+      {/* sets the main font */}
+      <div className="flex flex-col font-main min-h-screen">
         <Navbar />
         <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10 dark:text-white">
           <Routes>
