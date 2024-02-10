@@ -37,6 +37,21 @@ import AboutPage from "./footer/AboutPage";
 import ContactPage from "./footer/ContactPage";
 import Privacy from "./footer/Privacy";
 
+// events
+import SikhEventNavigation from "./sikhEvents/SikhEventNavigation";
+import GuruNanakGurpurab from "./sikhEvents/GuruNanakGurpurab";
+import Vaisakhi from "./sikhEvents/Vaisakhi";
+import GuruGobindSinghGurpurab from "./sikhEvents/GuruGobindSinghGurpurab";
+import Lohri from "./sikhEvents/Lohri";
+import Maghi from "./sikhEvents/Maghi";
+import HolaMohalla from "./sikhEvents/HolaMohalla";
+import DayGuruArjanDev from "./sikhEvents/DayGuruArjanDev";
+import DayGuruTegh from "./sikhEvents/DayGuruTegh";
+import Diwali from "./sikhEvents/Diwali";
+import ParkashUtsav from "./sikhEvents/ParkashUtsav";
+import GurdaddiDivas from "./sikhEvents/GurdaddiDivas";
+import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
+
 function App() {
   return (
     <BrowserRouter>
@@ -88,6 +103,34 @@ function App() {
 
             {/* calendar */}
             <Route path="/calendar" element={<SikhCalendar />} />
+
+            {/* events */}
+            <Route path="/events" element={<SikhEventNavigation />} />
+
+            <Route
+              path="/guru-nanak-gurpurab"
+              element={<GuruNanakGurpurab />}
+            />
+            <Route path="/vaisakhi" element={<Vaisakhi />} />
+            <Route
+              path="/guru-gobind-singh-gurpurab"
+              element={<GuruGobindSinghGurpurab />}
+            />
+
+            <Route path="/lohri" element={<Lohri />} />
+            <Route path="/maghi" element={<Maghi />} />
+            <Route path="/hola-mohalla" element={<HolaMohalla />} />
+
+            <Route path="/day-guru-arjan" element={<DayGuruArjanDev />} />
+            <Route path="/day-guru-tegh" element={<DayGuruTegh />} />
+            <Route path="/diwali" element={<Diwali />} />
+
+            <Route path="/parkash-utsav" element={<ParkashUtsav />} />
+            <Route path="/gurdaddi-divas" element={<GurdaddiDivas />} />
+            <Route
+              path="/guru-krishan-martyrdom"
+              element={<GuruKrishanMartyrdom />}
+            />
 
             {/* About */}
             <Route path="/about" element={<AboutPage />} />
