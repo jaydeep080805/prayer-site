@@ -9,23 +9,28 @@ function MobileMenu({ clickFunc }) {
       <MobileMenuItem clickFunc={clickFunc} pageLink={"./"} name={"home"} />
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={"./japji-sahib"}
-        name={"japji sahib"}
+        pageLink={"./translations"}
+        name={"prayers"}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={"./raehraas-sahib"}
-        name={"raehraas sahib"}
+        pageLink={"./sikhism"}
+        name={"sikhism"}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={"./ardaas-sahib"}
-        name={"ardaas"}
+        pageLink={"./sikh-gurus"}
+        name={"gurus"}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
-        pageLink={"./sohilaa-sahib"}
-        name={"sohilaa"}
+        pageLink={"./events"}
+        name={"events"}
+      />
+      <MobileMenuItem
+        clickFunc={clickFunc}
+        pageLink={"./calendar"}
+        name={"calendar"}
       />
     </div>
   );
