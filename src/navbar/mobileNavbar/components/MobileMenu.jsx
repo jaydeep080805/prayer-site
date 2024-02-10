@@ -11,21 +11,61 @@ function MobileMenu({ clickFunc }) {
         clickFunc={clickFunc}
         pageLink={"./translations"}
         name={"prayers"}
+        itemList={[
+          ["japji sahib", "/japji-sahib"],
+          ["raehraas sahib", "/raehraas-sahib"],
+          ["ardaas", "/ardaas-sahib"],
+          ["sohilaa sahib", "/sohilaa-sahib"],
+          ["jaap sahib", "/jaap-sahib"],
+        ]}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./sikhism"}
         name={"sikhism"}
+        itemList={[
+          ["about sikhism", "/about-sikhism"],
+          ["pillars of sikhism", "/pillars"],
+          ["five k's", "/fivek"],
+          ["turban", "/turban"],
+          ["guru granth sahib", "/granth-sahib"],
+          ["questions", "/faq"],
+        ]}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./sikh-gurus"}
         name={"gurus"}
+        itemList={[
+          ["nanak", "/guru-nanak"],
+          ["angad", "/guru-angad"],
+          ["amar", "/guru-amar"],
+          ["ram das", "/guru-ramdas"],
+          ["arjan", "/guru-arjan"],
+          ["hargobind", "/guru-hargobind"],
+          ["harrai", "/guru-harrai"],
+          ["harkrishan", "/guru-harkrishan"],
+          ["tegh", "/guru-tegh"],
+          ["gobind", "/guru-gobind"],
+        ]}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./events"}
         name={"events"}
+        itemList={[
+          ["nanak-gurpurab", "/guru-nanak-gurpurab"],
+          ["gobind-gurpurab", "/gobind-singh-gurpurab"],
+          ["lohri", "/lohri"],
+          ["maghi", "/maghi"],
+          ["hola-mohalla", "/hola-mohalla"],
+          ["day of guru arjan", "/day-guru-arjan"],
+          ["day of guru tegh", "/day-guru-tegh"],
+          ["diwali", "/diwali"],
+          ["parkash utsav", "/parkash-utsav"],
+          ["gurdaddi divas", "/gurdaddi-divas"],
+          ["guru krishan martyrdom", "/guru-krishan-martyrdom"],
+        ]}
       />
       <MobileMenuItem
         clickFunc={clickFunc}
