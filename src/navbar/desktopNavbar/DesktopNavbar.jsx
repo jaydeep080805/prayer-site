@@ -8,7 +8,7 @@ function DesktopNavbar() {
     <div className="hidden bg-white dark:bg-gray-800 dark:text-white md:flex flex-col">
       <div className="flex justify-center py-4 space-x-80">
         {/* left side */}
-        <Image image={Khanda} alt={"Sikh Khanda"} className="bg-transparent	" />
+        <Image image={Khanda} alt={"Sikh Khanda"} />
 
         {/* right side */}
         <Menu />
