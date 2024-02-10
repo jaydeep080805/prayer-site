@@ -10,6 +10,7 @@ function HomeScreenButtons() {
       <Button name={"sikhism"} pageLink={"/sikhism"} />
       <Button name={"sikh gurus"} pageLink={"/sikh-gurus"} />
       <Button name={"sikh calendar"} pageLink={"/calendar"} />
+      <Button name={"sikh events"} pageLink={"/events"} />
     </>
   );
 }
