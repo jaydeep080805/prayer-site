@@ -1,9 +1,15 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 function FooterSocialMediaIcons({ iconClass, websiteLink }) {
   // will always be a brand but needs the specific brand passed through
-  return <Link to={websiteLink} className={`fa-brands ${iconClass}`}></Link>;
+  return (
+    <a
+      href={websiteLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`fa-brands ${iconClass}`}
+    ></a>
+  );
 }
 
 FooterSocialMediaIcons.propTypes = {
