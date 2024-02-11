@@ -51,6 +51,7 @@ import Diwali from "./sikhEvents/Diwali";
 import ParkashUtsav from "./sikhEvents/ParkashUtsav";
 import GurdaddiDivas from "./sikhEvents/GurdaddiDivas";
 import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
+import FiveThief from "./sikhism/FiveThief";
 
 function App() {
   return (
@@ -100,7 +101,9 @@ function App() {
             <Route path="/fivek" element={<FiveK />} />
             <Route path="/turban" element={<Turban />} />
             <Route path="/granth-sahib" element={<GranthSahib />} />
+
             <Route path="/faq" element={<Faq />} />
+            <Route path="/five-thiefs" element={<FiveThief />} />
 
             {/* calendar */}
             <Route path="/calendar" element={<SikhCalendar />} />
