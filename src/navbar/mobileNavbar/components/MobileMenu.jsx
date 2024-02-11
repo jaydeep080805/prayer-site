@@ -27,6 +27,7 @@ function MobileMenu({ clickFunc }) {
           ["about sikhism", "/about-sikhism"],
           ["pillars of sikhism", "/pillars"],
           ["five k's", "/fivek"],
+          ["five thief's", "/five-thiefs"],
           ["turban", "/turban"],
           ["guru granth sahib", "/granth-sahib"],
           ["questions", "/faq"],
