@@ -20,7 +20,7 @@ const pronunciationDict = {
   sree: "sh-ree",
   jee: "g",
   bhagautee: "bhag-au-tee",
-  sahai: "sa-high",
+  sahai: "sa-hair",
   vaar: "vard",
   paatisaahee: "paat-i-saa-hee",
   piratham: "pee-rath-am",
