@@ -52,6 +52,7 @@ function Form({ onEmailSend }) {
   function handleSubmit(e) {
     e.preventDefault();
 
+    // send a request to the backend api to send emails
     fetch("https://sikh-essence-backend.up.railway.app/send-email", {
       method: "POST",
       headers: {
@@ -122,14 +123,14 @@ function ContactPage() {
     <div>
       {/* if the email sent */}
       {emailHasSent === "success" && (
-        <div className="w-full text-center mx-auto bg-green-500 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-green-600 lg:bg-green-500">
+        <div className="w-full text-center mx-auto bg-green-500/80 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-green-400 lg:bg-green-500/90">
           Email succesfully sent
         </div>
       )}
 
       {/* if there was an error sending the email */}
       {emailHasSent === "error" && (
-        <div className="w-full text-center mx-auto bg-red-500 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-red-600 lg:bg-red-500">
+        <div className="w-full text-center mx-auto bg-red-500/90 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-red-500 lg:bg-red-500/75">
           Error sending email
         </div>
       )}
