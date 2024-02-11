@@ -21,6 +21,7 @@ function FormComponent({
             onChange={onChange}
             value={value}
             className="p-2 rounded-md dark:bg-gray-700 h-40"
+            required
           />
         ) : (
           <input
@@ -28,6 +29,7 @@ function FormComponent({
             value={value}
             type={inputType}
             className="p-2 rounded-md dark:bg-gray-700"
+            required
           />
         )}
       </div>
