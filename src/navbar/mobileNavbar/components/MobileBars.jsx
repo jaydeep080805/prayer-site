@@ -7,7 +7,7 @@ function MobileBars({ onClickFunc, isOpened }) {
   return (
     // The span acts as a wrapper for the icon and is used to apply the rotation animation.
     <span
-      className={`inline-block transition-transform duration-300 ${
+      className={`inline-block transition-transform duration-300 mr-4 ${
         isOpened ? "rotate-90" : "rotate-0"
       }`}
     >
@@ -15,7 +15,7 @@ function MobileBars({ onClickFunc, isOpened }) {
         // The onClick function toggles the menu open/close state.
         onClick={onClickFunc}
         // The icon changes between bars and 'X' based on the isOpened state.
-        className={`text-3xl text-orange-400 mr-4 ${
+        className={`text-3xl text-orange-400 ${
           isOpened ? "fa-solid fa-xmark" : "fa fa-bars"
         }`}
       ></i>

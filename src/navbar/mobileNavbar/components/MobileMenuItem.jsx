@@ -39,7 +39,13 @@ export function SubMenu({ showMenu, setShowMenu, items, clickFunc }) {
 }
 
 // function to create a menu item component for mobile
-function MobileMenuItem({ name, pageLink, clickFunc, itemList }) {
+function MobileMenuItem({
+  name,
+  pageLink,
+  clickFunc,
+  itemList,
+  isHomeLink = false,
+}) {
   const [showSubMenu, setShowSubMenu] = useState(false);
 
   return (
@@ -51,15 +57,17 @@ function MobileMenuItem({ name, pageLink, clickFunc, itemList }) {
           {name}
         </Link>
 
-        {/* chevron icon to show dropdown menu */}
-        <i
-          // control the status of the submenu (dropdown menu)
-          onClick={() => setShowSubMenu(!showSubMenu)}
-          // use a right chevron and transition it 90 when the menu is open
-          className={`fa-solid fa-chevron-right px-5 py-1 transition duration-200 ${
-            showSubMenu && "rotate-90"
-          }`}
-        ></i>
+        {!isHomeLink && (
+          // {/* chevron icon to show dropdown menu */}
+          <i
+            // control the status of the submenu (dropdown menu)
+            onClick={() => setShowSubMenu(!showSubMenu)}
+            // use a right chevron and transition it 90 when the menu is open
+            className={`fa-solid fa-chevron-right px-5 py-1 transition duration-200 ${
+              showSubMenu && "rotate-90"
+            }`}
+          ></i>
+        )}
       </div>
 
       {/* will show a submenu but only when the chevron has been clicked in the above <i> tag */}
@@ -78,6 +86,7 @@ MobileMenuItem.propTypes = {
   pageLink: PropTypes.string.isRequired,
   clickFunc: PropTypes.func.isRequired,
   itemList: PropTypes.array,
+  isHomeLink: PropTypes.bool,
 };
 
 SubMenu.propTypes = {

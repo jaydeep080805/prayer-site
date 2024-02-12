@@ -6,7 +6,13 @@ import MobileMenuItem from "./MobileMenuItem";
 function MobileMenu({ clickFunc }) {
   return (
     <div className="mt-20 text-center flex flex-col space-y-5">
-      <MobileMenuItem clickFunc={clickFunc} pageLink={"./"} name={"home"} />
+      <MobileMenuItem
+        clickFunc={clickFunc}
+        pageLink={"./"}
+        name={"home"}
+        isHomeLink={true}
+      />
+
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./translations"}
@@ -19,6 +25,7 @@ function MobileMenu({ clickFunc }) {
           ["jaap sahib", "/jaap-sahib"],
         ]}
       />
+
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./sikhism"}
@@ -32,6 +39,7 @@ function MobileMenu({ clickFunc }) {
           ["questions", "/faq"],
         ]}
       />
+
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./sikh-gurus"}
@@ -49,6 +57,7 @@ function MobileMenu({ clickFunc }) {
           ["gobind", "/guru-gobind"],
         ]}
       />
+
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./events"}
@@ -67,6 +76,7 @@ function MobileMenu({ clickFunc }) {
           ["guru krishan martyrdom", "/guru-krishan-martyrdom"],
         ]}
       />
+
       <MobileMenuItem
         clickFunc={clickFunc}
         pageLink={"./calendar"}
