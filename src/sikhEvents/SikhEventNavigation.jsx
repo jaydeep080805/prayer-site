@@ -1,11 +1,12 @@
-import ButtonStructure from "../components/ButtonStructure";
 import SikhEventButtons from "./SikhEventButtons";
+import NavigationPageStructure from "../components/NavigationPageStructure";
 
 function SikhEventNavigation() {
   return (
-    <>
-      <ButtonStructure buttons={<SikhEventButtons />} />
-    </>
+    <NavigationPageStructure
+      heading="sikh events"
+      buttons={<SikhEventButtons />}
+    />
   );
 }
 

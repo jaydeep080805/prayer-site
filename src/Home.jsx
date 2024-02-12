@@ -1,11 +1,7 @@
 import HomeScreen from "./homeScreenElements/HomeScreen";
 
 function Home() {
-  return (
-    <div>
-      <HomeScreen />
-    </div>
-  );
+  return <HomeScreen />;
 }
 
 export default Home;

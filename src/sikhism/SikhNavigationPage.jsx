@@ -1,11 +1,12 @@
-import ButtonStructure from "../components/ButtonStructure";
 import SikhNavigationButtons from "./SikhNavigationButtons";
+import NavigationPageStructure from "../components/NavigationPageStructure";
 
 function SikhNavigationPage() {
   return (
-    <div>
-      <ButtonStructure buttons={<SikhNavigationButtons />} />
-    </div>
+    <NavigationPageStructure
+      heading={"sikhism"}
+      buttons={<SikhNavigationButtons />}
+    />
   );
 }
 
