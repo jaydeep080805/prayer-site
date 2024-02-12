@@ -1,12 +1,17 @@
 import SikhGurusNavigationButton from "./components/SikhGurusNavigationButton";
 import NavigationPageStructure from "../components/NavigationPageStructure";
+import { BackButtonNavigationPage } from "../components/BackButtons";
 
 function SikhGurusNavigation() {
   return (
-    <NavigationPageStructure
-      heading={"sikh gurus"}
-      buttons={<SikhGurusNavigationButton />}
-    />
+    <>
+      <BackButtonNavigationPage pageLink={"/"} />
+
+      <NavigationPageStructure
+        heading={"sikh gurus"}
+        buttons={<SikhGurusNavigationButton />}
+      />
+    </>
   );
 }
 

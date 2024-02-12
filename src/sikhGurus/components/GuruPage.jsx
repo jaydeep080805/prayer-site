@@ -3,6 +3,7 @@ import Image from "../../components/Image";
 import Table from "./Table";
 import guruInformation from "../guruInformation/guruInformation";
 import InformationText from "./InformationText";
+import { BackButtonNavigationPage } from "../../components/BackButtons";
 
 function GuruPage({ image, guruName }) {
   // destructure the information
@@ -23,7 +24,8 @@ function GuruPage({ image, guruName }) {
   } = guruInformation[guruName];
 
   return (
-    <div className="flex flex-col justify-center items-center rounded-xl lg:mt-10 lg:px-12 lg:mx-20 xl:px-12 xl:mx-40 dark:text-white dark:bg-gray-900">
+    <div className="flex flex-col justify-center items-center rounded-xl pt-10 lg:pt-0 lg:mt-10 lg:px-12 lg:mx-20 xl:px-12 xl:mx-40 dark:text-white dark:bg-gray-900">
+      <BackButtonNavigationPage />
       <div className="shadow-xl px-2 rounded-lg">
         {/* guru image */}
         <Image imageSrc={image} />

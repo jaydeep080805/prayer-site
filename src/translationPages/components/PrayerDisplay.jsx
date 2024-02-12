@@ -3,6 +3,7 @@ import { useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import PrayerContent from "./PrayerContent";
 import toast from "react-hot-toast";
+import { BackButtonNavigationPage } from "../../components/BackButtons";
 
 const notify = () => {
   if (localStorage.getItem("toastShown") === "true") {
@@ -63,6 +64,8 @@ function PrayerDisplay({ scripts, prayerName }) {
       {/* this div will also align everything in the center including the youtube video */}
       {/* set the background to white and center text */}
       <div className="bg-white w-screen dark:bg-gray-900 dark:text-white flex flex-col items-center gap-5 pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-180 xl:min-w-220">
+        <BackButtonNavigationPage />
+
         <h1 className="capitalize text-orange-400 text-4xl font-heading font-bold underline">
           {prayerName} sahib
         </h1>
