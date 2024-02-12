@@ -62,7 +62,11 @@ function PrayerDisplay({ scripts, prayerName }) {
     <div className="flex justify-center md:pt-20 md:mx-96">
       {/* this div will also align everything in the center including the youtube video */}
       {/* set the background to white and center text */}
-      <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-180 xl:min-w-220">
+      <div className="bg-white dark:bg-gray-900 dark:text-white flex flex-col items-center gap-5 pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-180 xl:min-w-220">
+        <h1 className="capitalize text-orange-400 text-5xl font-heading font-bold underline">
+          {prayerName} sahib
+        </h1>
+
         <iframe
           className="lg:w-[30rem] lg:h-[15rem] xl:w-[40rem] xl:h-[20rem]"
           src={youtubeVideo}

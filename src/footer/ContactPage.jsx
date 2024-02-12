@@ -129,11 +129,9 @@ function Form() {
 
 function ContactPage() {
   return (
-    <div>
-      <PageLayout heading={"Contact"}>
-        <Form />
-      </PageLayout>
-    </div>
+    <PageLayout heading={"Contact"}>
+      <Form />
+    </PageLayout>
   );
 }
 
