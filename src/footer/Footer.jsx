@@ -7,6 +7,13 @@ function Footer() {
   return (
     // main footer container
     <div className="flex flex-col font-heading gap-8 justify-center items-center bg-sky-950 text-orange-400 border-t border-orange-400 py-10">
+      <a
+        href="#navbar"
+        className="absolute right-10 px-3 py-2 text-white bg-orange-400"
+      >
+        <i className="fa-solid fa-chevron-up" />
+      </a>
+
       {/* the text */}
       <FooterMenu />
 

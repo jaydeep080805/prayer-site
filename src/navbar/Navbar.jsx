@@ -3,7 +3,7 @@ import DesktopNavbar from "./desktopNavbar/DesktopNavbar";
 
 function Navbar() {
   return (
-    <nav>
+    <nav id="navbar">
       <MobileNavbar />
       <DesktopNavbar />
     </nav>

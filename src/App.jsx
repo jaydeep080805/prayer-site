@@ -57,8 +57,13 @@ import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
 import FiveThief from "./sikhism/FiveThief";
 
 import { Toaster } from "react-hot-toast";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.documentElement.style.scrollBehavior = "smooth";
+  }, []);
+
   return (
     <BrowserRouter>
       {/* sets the main font */}
