@@ -14,7 +14,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
   const punjabiStyle = "text-xl md:text-2xl m-0 break-words";
 
   // sets the actual meanings to bold
-  const englishMeaningStyle = "font-bold break-words";
+  const englishMeaningStyle = "font-black break-words lg:font-bold";
 
   // sets the heading styles
   const englishMeaningHeading =

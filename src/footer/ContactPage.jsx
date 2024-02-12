@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import PageLayout from "../components/PageLayout";
+import toast from "react-hot-toast";
 
 function FormComponent({
   label,
@@ -37,7 +38,7 @@ function FormComponent({
   );
 }
 
-function Form({ onEmailSend }) {
+function Form() {
   const [formData, setFormData] = useState({
     email: "",
     subject: "",
@@ -51,34 +52,48 @@ function Form({ onEmailSend }) {
     }));
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
-    // send a request to the backend api to send emails
-    fetch("https://sikh-essence-backend.up.railway.app/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        // if the emails are sent successfully
-        if (data.message === "Emails sent successfully") {
-          onEmailSend("success");
-          // set the inputs to be empty
-          setFormData({ email: "", subject: "", message: "" });
-        }
+    // use toast.promise to allow the toast to provide constant status updates (sending, sent, error)
+    toast.promise(
+      // make an api call to the backend
+      fetch("https://sikh-essence-backend.up.railway.app/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        // convert data to a json string and send it
+        body: JSON.stringify(formData),
       })
-      // if there are any errors
-      .catch((error) => {
-        // log the error
-        console.error("Error:", error);
+        .then((response) => {
+          // if the status code is not okay (200 - 299) then reject promise to show error toast
+          if (!response.ok) {
+            return Promise.reject(new Error("Failed to send email"));
+          }
+          // Proceed to parse the JSON only if response is ok.
+          return response.json();
+        })
 
-        // show an error message
-        onEmailSend("error");
-      });
+        .then((data) => {
+          // Check for specific success message or other success criteria
+          if (data.message === "Emails sent successfully") {
+            // Reset form data on success
+            setFormData({ email: "", subject: "", message: "" });
+          } else {
+            // Handle any other conditions as failures.
+            return Promise.reject(
+              // if there is an error message then display that else just display generic message
+              new Error(data.message || "Unknown error occurred")
+            );
+          }
+        }),
+      {
+        loading: "Sending...",
+        success: "Email sent successfully!",
+        error: (err) => `${err.toString()}`, // Customize the error message
+      }
+    );
   }
 
   return (
@@ -113,34 +128,10 @@ function Form({ onEmailSend }) {
 }
 
 function ContactPage() {
-  // remembers if an email has been sent
-  const [emailHasSent, setEmailHasSent] = useState("");
-
-  // sets the emailHasSent variable
-  const handleEmailSend = (status) => {
-    setEmailHasSent(status);
-  };
-
   return (
-    <div>
-      {/* if the email sent */}
-      {emailHasSent === "success" && (
-        <div className="w-full text-center mx-auto bg-green-500/80 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-green-400 lg:bg-green-500/90">
-          Email succesfully sent
-        </div>
-      )}
-
-      {/* if there was an error sending the email */}
-      {emailHasSent === "error" && (
-        <div className="w-full text-center mx-auto bg-red-500/90 p-5 lg:py-4 lg:px-5 lg:w-fit lg:mx-auto lg:mt-2 lg:rounded-md lg:border-4 lg:border-red-500 lg:bg-red-500/75">
-          Error sending email
-        </div>
-      )}
-
-      <PageLayout heading={"Contact"}>
-        <Form onEmailSend={handleEmailSend} />
-      </PageLayout>
-    </div>
+    <PageLayout heading={"Contact"}>
+      <Form />
+    </PageLayout>
   );
 }
 
