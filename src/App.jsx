@@ -1,10 +1,15 @@
 // react imports
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-//
+// misc
 import Navbar from "./navbar/Navbar";
 import Home from "./Home";
 import Footer from "./footer/Footer";
+import Faq from "./sikhism/Faq";
+import SikhCalendar from "./calendar/SikhCalendar";
+import AboutPage from "./footer/AboutPage";
+import ContactPage from "./footer/ContactPage";
+import Privacy from "./footer/Privacy";
 
 // routes
 import TranslationSelectionPage from "./translationPages/TranslationSelectionPage";
@@ -12,7 +17,9 @@ import JapjiSahib from "./translationPages/JapjiSahib";
 import RaehraasSahib from "./translationPages/RaehraasSahib";
 import ArdasSahib from "./translationPages/ArdasSahib";
 import SohillaSahib from "./translationPages/SohillaSahib";
+import JaapSahib from "./translationPages/JaapSahib";
 
+// gurus
 import SikhGurusNavigation from "./sikhGurus/SikhGurusNavigation";
 import GuruNanak from "./sikhGurus/GuruNanak";
 import GuruAngad from "./sikhGurus/GuruAngad";
@@ -24,18 +31,14 @@ import GuruHarRai from "./sikhGurus/GuruHarRai";
 import GuruHarKrishan from "./sikhGurus/GuruHarKrishan";
 import GuruTeghBahadur from "./sikhGurus/GuruTeghBahadur";
 import GuruGobind from "./sikhGurus/GuruGobind";
-import JaapSahib from "./translationPages/JaapSahib";
+
+// sikhism
 import SikhNavigationPage from "./sikhism/SikhNavigationPage";
 import AboutSikhism from "./sikhism/AboutSikhism";
 import PillarsOfSikhism from "./sikhism/PillarsOfSikhism";
 import FiveK from "./sikhism/FiveK";
 import GranthSahib from "./sikhism/GranthSahib";
 import Turban from "./sikhism/Turban";
-import Faq from "./sikhism/Faq";
-import SikhCalendar from "./calendar/SikhCalendar";
-import AboutPage from "./footer/AboutPage";
-import ContactPage from "./footer/ContactPage";
-import Privacy from "./footer/Privacy";
 
 // events
 import SikhEventNavigation from "./sikhEvents/SikhEventNavigation";
@@ -53,6 +56,8 @@ import GurdaddiDivas from "./sikhEvents/GurdaddiDivas";
 import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
 import FiveThief from "./sikhism/FiveThief";
 
+import { Toaster } from "react-hot-toast";
+
 function App() {
   return (
     <BrowserRouter>
@@ -60,6 +65,8 @@ function App() {
       <div className="flex flex-col font-main min-h-screen">
         <Navbar />
         <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10 dark:text-white">
+          <Toaster />
+
           <Routes>
             {/* home screen */}
             <Route path="/" element={<Home />} />

@@ -2,6 +2,20 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import PrayerContent from "./PrayerContent";
+import toast from "react-hot-toast";
+
+const notify = () => {
+  if (localStorage.getItem("toastShown") === "true") {
+    return; // Don't show the toast if already seen
+  }
+
+  toast("Try hovering or clicking a word to see the pronunciation", {
+    className: "bg-gray-500 text-white shadow-lg dark:bg-white dark:text-black",
+  });
+
+  // save to users local state so it will not show again
+  localStorage.setItem("toastShown", "true");
+};
 
 // get the list of scripts and the name of the prayer
 function PrayerDisplay({ scripts, prayerName }) {
@@ -33,6 +47,7 @@ function PrayerDisplay({ scripts, prayerName }) {
       case "english meaning":
         setScript(englishMeaningScript);
         setSelectedLanguage(`${prayerName}EnglishMeaning`);
+        notify();
         break;
 
       default:
