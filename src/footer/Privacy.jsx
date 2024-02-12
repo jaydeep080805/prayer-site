@@ -55,7 +55,7 @@ function Privacy() {
         text={
           "If you have any questions about this Privacy Policy or our practices, please contact us at "
         }
-        linkText={"sikhessence@gmail.com"}
+        linkText={"Jaydeep@sikhessence.co.uk"}
       />
 
       <div className="capitalize text-gray-400 font-heading flex justify-center">
