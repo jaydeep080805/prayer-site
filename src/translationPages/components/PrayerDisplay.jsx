@@ -10,7 +10,8 @@ const notify = () => {
   }
 
   toast("Try hovering or clicking a word to see the pronunciation", {
-    className: "bg-gray-500 text-white shadow-lg dark:bg-white dark:text-black",
+    className:
+      "bg-gray-700 text-white shadow-lg rounded-xl dark:bg-white dark:text-black",
   });
 
   // save to users local state so it will not show again

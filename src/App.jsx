@@ -65,7 +65,16 @@ function App() {
       <div className="flex flex-col font-main min-h-screen">
         <Navbar />
         <div className="bg-gray-100 dark:bg-gray-950 flex-grow overflow-x-hidden pb-10 dark:text-white">
-          <Toaster />
+          <Toaster
+            toastOptions={{
+              success: {
+                className: "bg-green-500 text-white",
+              },
+              error: {
+                className: "bg-red-600 text-white",
+              },
+            }}
+          />
 
           <Routes>
             {/* home screen */}
