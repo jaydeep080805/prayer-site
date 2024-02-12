@@ -15,7 +15,7 @@ function MobileBars({ onClickFunc, isOpened }) {
         // The onClick function toggles the menu open/close state.
         onClick={onClickFunc}
         // The icon changes between bars and 'X' based on the isOpened state.
-        className={`text-3xl text-orange-400 ${
+        className={`text-3xl text-orange-400 mr-4 ${
           isOpened ? "fa-solid fa-xmark" : "fa fa-bars"
         }`}
       ></i>

@@ -3,7 +3,6 @@ import Image from "../components/Image";
 import Khanda from "../../assets/Khanda_Orange.png";
 import MobileBars from "./components/MobileBars";
 import Border from "../components/Border";
-import SearchIcon from "../components/SearchIcon";
 import SlideMenu from "./components/SlideMenu";
 import BackgroundOverlay from "./components/BackgroundOverlay";
 
@@ -29,9 +28,7 @@ function MobileNavbar() {
         <Image image={Khanda} altText={"Sikh Khanda"} />
 
         {/* bars icon container */}
-        <div className="z-40 w-24 flex items-center justify-evenly">
-          {/* search icon */}
-          <SearchIcon />
+        <div className="z-40 w-24 flex justify-end">
           {/* bar icon */}
           <MobileBars onClickFunc={handleClick} isOpened={isOpen} />
         </div>
