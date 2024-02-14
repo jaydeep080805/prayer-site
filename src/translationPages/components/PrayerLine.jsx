@@ -14,11 +14,11 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
   const punjabiStyle = "text-xl md:text-2xl m-0 break-words";
 
   // sets the actual meanings to bold
-  const englishMeaningStyle = "font-black break-words lg:font-bold";
+  const englishMeaningStyle = "font-black mb-1 break-words lg:font-bold";
 
   // sets the heading styles
   const englishMeaningHeading =
-    "text-3xl md:text-5xl m-3 my-5 pt-16 underline font-bold font-heading";
+    "text-3xl md:text-5xl underline font-bold font-heading";
 
   const wordWithPronunciation = (line) => {
     // filters the array by " " and "."

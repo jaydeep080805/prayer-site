@@ -24,7 +24,7 @@ function PrayerPageNavigationButtonsWithPageNum({
   return (
     <>
       {/* center div */}
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center my-10">
         {/* add spacing between buttons */}
         <div className="flex space-x-5 lg:space-x-10">
           <button
