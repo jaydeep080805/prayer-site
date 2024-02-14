@@ -18,7 +18,7 @@ function PrayerLine({ line, index, selectedLanguage, prayerName }) {
 
   // sets the heading styles
   const englishMeaningHeading =
-    "text-3xl md:text-5xl underline font-bold font-heading";
+    "text-3xl md:text-5xl underline mt-10 font-bold font-heading";
 
   const wordWithPronunciation = (line) => {
     // filters the array by " " and "."
