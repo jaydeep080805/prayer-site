@@ -4,6 +4,8 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import PrayerContent from "./PrayerContent";
 import toast from "react-hot-toast";
 import { BackButtonNavigationPage } from "../../components/BackButtons";
+import { PrayerHeading } from "../../components/Heading";
+import { PrayerPageNavigationButtonsWithPageNum } from "../../components/Button";
 
 const notify = () => {
   if (localStorage.getItem("toastShown") === "true") {
@@ -58,6 +60,59 @@ function PrayerDisplay({ scripts, prayerName }) {
     }
   };
 
+  // console.log(script);
+
+  let amountOfPagesScriptNeeds = 0;
+  let amountOfLinesInScript = [];
+  let [currentSelectedPage, setCurrentSelectedPage] = useState(1);
+
+  script.map((line, index) => {
+    if (index % 100 === 0 && index !== 0) {
+      // console.log(line);
+      amountOfLinesInScript.push(index);
+      amountOfPagesScriptNeeds++;
+    }
+  });
+
+  if (script.length > amountOfLinesInScript[amountOfLinesInScript.length - 1]) {
+    const leftOverLines =
+      amountOfLinesInScript[amountOfLinesInScript.length - 1] +
+      (script.length - amountOfLinesInScript[amountOfLinesInScript.length - 1]);
+    amountOfLinesInScript.push(leftOverLines);
+    // console.log("poo");
+  }
+
+  // console.log(amountOfPagesScriptNeeds[amountOfPagesScriptNeeds.length - 1]);
+  // console.log(amountOfLinesInScript);
+  // console.log(currentSelectedPage);
+
+  // useEffect(() => {});
+
+  const handlePage = (page) => {
+    // console.log(page);
+    // console.log(amountOfPagesScriptNeeds);
+    // console.log(amountOfLinesInScript);
+
+    for (let i = page - 1; i <= amountOfPagesScriptNeeds; i++) {
+      console.log(page);
+
+      switch (page) {
+        case i:
+          return (
+            <PrayerContent
+              script={script.slice(
+                amountOfLinesInScript[i - 2],
+                amountOfLinesInScript[i - 1]
+              )}
+              selectedLanguage={selectedLanguage}
+              prayerName={prayerName}
+              amountOfPagesScriptNeeds={amountOfPagesScriptNeeds}
+            />
+          );
+      }
+    }
+  };
+
   return (
     // center the elements
     <div className="flex justify-center md:pt-20 md:mx-96">
@@ -66,9 +121,7 @@ function PrayerDisplay({ scripts, prayerName }) {
       <div className="bg-white w-screen dark:bg-gray-900 dark:text-white flex flex-col items-center gap-5 pt-10 w-max text-center rounded-xl shadow-xl lg:min-w-180 xl:min-w-220">
         <BackButtonNavigationPage />
 
-        <h1 className="capitalize text-orange-400 text-4xl font-heading font-bold underline">
-          {prayerName} sahib
-        </h1>
+        <PrayerHeading text={prayerName} />
 
         <iframe
           className="lg:w-[30rem] lg:h-[15rem] xl:w-[40rem] xl:h-[20rem]"
@@ -77,13 +130,37 @@ function PrayerDisplay({ scripts, prayerName }) {
         />
 
         {/* add a margin to give all the elements in the container a bit of spacing from the margin */}
-        <div className="m-5 max-w-80 lg:max-w-160 xl:max-w-200">
+        <div
+          className="m-5 max-w-80 lg:max-w-160 xl:max-w-200"
+          id="top-of-prayer-card"
+        >
           {/* render the language buttons */}
           <LanguageSwitcher onLanguageChange={handleLanguageChange} />
-          <PrayerContent
-            script={script}
-            selectedLanguage={selectedLanguage}
-            prayerName={prayerName}
+
+          {/* if the user has changed page, add page navigation buttons to the top */}
+          {currentSelectedPage > 1 && (
+            <PrayerPageNavigationButtonsWithPageNum
+              currentSelectedPage={currentSelectedPage}
+              setCurrentSelectedPage={setCurrentSelectedPage}
+              amountOfPagesScriptNeeds={amountOfPagesScriptNeeds}
+            />
+          )}
+
+          {amountOfLinesInScript < 100 ? (
+            <PrayerContent
+              script={script}
+              selectedLanguage={selectedLanguage}
+              prayerName={prayerName}
+            />
+          ) : (
+            handlePage(currentSelectedPage)
+          )}
+
+          {/* select pages container */}
+          <PrayerPageNavigationButtonsWithPageNum
+            currentSelectedPage={currentSelectedPage}
+            setCurrentSelectedPage={setCurrentSelectedPage}
+            amountOfPagesScriptNeeds={amountOfPagesScriptNeeds}
           />
         </div>
       </div>
