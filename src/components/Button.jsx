@@ -16,6 +16,55 @@ function Button({ name, pageLink, onClickFunc = null }) {
   );
 }
 
+function PrayerPageNavigationButtonsWithPageNum({
+  currentSelectedPage,
+  setCurrentSelectedPage,
+  amountOfPagesScriptNeeds,
+}) {
+  return (
+    <>
+      {/* center div */}
+      <div className="flex justify-center mt-10">
+        {/* add spacing between buttons */}
+        <div className="flex space-x-10">
+          <button
+            // move the page down
+            onClick={() => {
+              setCurrentSelectedPage(
+                currentSelectedPage > 1
+                  ? currentSelectedPage - 1
+                  : (currentSelectedPage = 1)
+              );
+            }}
+            className="bg-orange-400 p-2 rounded-md shadow-md capitalize"
+          >
+            previous page
+          </button>
+
+          <div className="self-center">
+            {currentSelectedPage} of {amountOfPagesScriptNeeds}
+          </div>
+
+          <a
+            // move the page up
+            href={"#top-of-prayer-card"}
+            onClick={() => {
+              setCurrentSelectedPage(
+                currentSelectedPage < amountOfPagesScriptNeeds
+                  ? currentSelectedPage + 1
+                  : (currentSelectedPage = amountOfPagesScriptNeeds)
+              );
+            }}
+            className="bg-orange-400 p-2 rounded-md shadow-md capitalize"
+          >
+            next page
+          </a>
+        </div>
+      </div>
+    </>
+  );
+}
+
 // prop types
 Button.propTypes = {
   name: PropTypes.string,
@@ -24,4 +73,11 @@ Button.propTypes = {
   onClickFunc: PropTypes.func,
 };
 
+PrayerPageNavigationButtonsWithPageNum.propTypes = {
+  currentSelectedPage: PropTypes.number.isRequired,
+  setCurrentSelectedPage: PropTypes.func.isRequired,
+  amountOfPagesScriptNeeds: PropTypes.number.isRequired,
+};
+
 export default Button;
+export { PrayerPageNavigationButtonsWithPageNum };
