@@ -1,5 +1,8 @@
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
+import Image from "../components/Image";
+import kara from "../assets/five-k's/kara.jpg";
+import kanga from "../assets/five-k's/kanga.jpg";
 
 function FiveK() {
   return (
@@ -9,6 +12,7 @@ function FiveK() {
         text={
           "Kesh refers to the practice of allowing one's hair to grow naturally without cutting it. This symbolizes acceptance of God's will, respect for the perfection of God's creation, and a departure from vanity and ego. The hair is usually covered with a turban (Dastar) for men, and a headscarf for women, signifying dignity, integrity, and respect."
         }
+        imageSrc={kara}
       />
 
       <Section
@@ -38,6 +42,14 @@ function FiveK() {
           "The Kirpan is a ceremonial sword that symbolizes a Sikh's duty to stand against injustice and to protect the weak and oppressed. It represents courage, self-defense, and the struggle against tyranny. The Kirpan is a reminder of the warrior aspect of Sikhism, emphasizing the responsibility to uphold righteousness and the moral obligation to defend the rights of all beings."
         }
       />
+
+      <div className="flex gap-2">
+        <Image imageSrc={kara} />
+        <Image imageSrc={kanga} />
+        <Image imageSrc={kara} />
+        <Image imageSrc={kara} />
+        <Image imageSrc={kara} />
+      </div>
     </PageLayout>
   );
 }
