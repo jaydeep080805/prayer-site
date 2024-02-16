@@ -154,14 +154,12 @@ function PrayerDisplay({ scripts, prayerName }) {
             handlePage(currentSelectedPage)
           )}
 
-          {/* only display page switcher if there is more than 1 page */}
-          {amountOfPagesScriptNeeds >= 2 && (
-            <PrayerPageNavigationButtonsWithPageNum
-              currentSelectedPage={currentSelectedPage}
-              setCurrentSelectedPage={setCurrentSelectedPage}
-              amountOfPagesScriptNeeds={amountOfPagesScriptNeeds}
-            />
-          )}
+          {/* select pages container */}
+          <PrayerPageNavigationButtonsWithPageNum
+            currentSelectedPage={currentSelectedPage}
+            setCurrentSelectedPage={setCurrentSelectedPage}
+            amountOfPagesScriptNeeds={amountOfPagesScriptNeeds}
+          />
         </div>
       </div>
     </div>
