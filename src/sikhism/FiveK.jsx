@@ -1,8 +1,19 @@
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
-import Image from "../components/Image";
 import kara from "../assets/five-k's/kara.jpg";
 import kanga from "../assets/five-k's/kanga.jpg";
+import kesh from "../assets/five-k's/kesh.jpeg";
+import kacchera from "../assets/five-k's/kacchera.jpeg";
+import kirpan from "../assets/five-k's/kirpan.webp";
+
+function HorizontalImageScroll({ imageSrc, alt, name }) {
+  return (
+    <div className="bg-white p-5 dark:bg-gray-800 shadow-md h-88 rounded-md">
+      <img src={imageSrc} alt={alt} className="rounded-md w-80 h-60" />
+      <p className="flex justify-center capitalize items-center h-20">{name}</p>
+    </div>
+  );
+}
 
 function FiveK() {
   return (
@@ -12,7 +23,6 @@ function FiveK() {
         text={
           "Kesh refers to the practice of allowing one's hair to grow naturally without cutting it. This symbolizes acceptance of God's will, respect for the perfection of God's creation, and a departure from vanity and ego. The hair is usually covered with a turban (Dastar) for men, and a headscarf for women, signifying dignity, integrity, and respect."
         }
-        // imageSrc={kara}
       />
 
       <Section
@@ -43,13 +53,37 @@ function FiveK() {
         }
       />
 
-      {/* <div className="flex gap-2">
-        <Image imageSrc={kara} />
-        <Image imageSrc={kanga} />
-        <Image imageSrc={kara} />
-        <Image imageSrc={kara} />
-        <Image imageSrc={kara} />
-      </div> */}
+      <div className="grid grid-flow-col auto-cols-[100%] gap-2 shadow-md overflow-x-scroll lg:w-fit">
+        <HorizontalImageScroll
+          imageSrc={kesh}
+          alt={"sikh man with uncut hair symbolising kesh"}
+          name={"kesh"}
+        />
+
+        <HorizontalImageScroll
+          imageSrc={kara}
+          alt={"silver kara"}
+          name={"kara"}
+        />
+
+        <HorizontalImageScroll
+          imageSrc={kanga}
+          alt={"wooden kanga"}
+          name={"kanga"}
+        />
+
+        <HorizontalImageScroll
+          imageSrc={kacchera}
+          alt={"kacchera (cotton underwear)"}
+          name={"kacchera"}
+        />
+
+        <HorizontalImageScroll
+          imageSrc={kirpan}
+          alt={"wooden kanga"}
+          name={"kirpan"}
+        />
+      </div>
     </PageLayout>
   );
 }
