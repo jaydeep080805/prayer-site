@@ -12,7 +12,7 @@ function FiveK() {
         text={
           "Kesh refers to the practice of allowing one's hair to grow naturally without cutting it. This symbolizes acceptance of God's will, respect for the perfection of God's creation, and a departure from vanity and ego. The hair is usually covered with a turban (Dastar) for men, and a headscarf for women, signifying dignity, integrity, and respect."
         }
-        imageSrc={kara}
+        // imageSrc={kara}
       />
 
       <Section
@@ -43,13 +43,13 @@ function FiveK() {
         }
       />
 
-      <div className="flex gap-2">
+      {/* <div className="flex gap-2">
         <Image imageSrc={kara} />
         <Image imageSrc={kanga} />
         <Image imageSrc={kara} />
         <Image imageSrc={kara} />
         <Image imageSrc={kara} />
-      </div>
+      </div> */}
     </PageLayout>
   );
 }
