@@ -14,7 +14,7 @@ function PageLayout({ heading, children }) {
         {/* render the heading */}
         <Heading text={heading} />
         {/* render the components */}
-        <div className="space-y-10 lg:space-y-14 xl:space-y-10">{children}</div>
+        <div className="space-y-10 lg:space-y-10 xl:space-y-10">{children}</div>
       </div>
     </div>
   );
