@@ -54,7 +54,7 @@ function FiveK() {
         }
       />
 
-      <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[20%] lg:snap-none">
+      <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[30%] xl:auto-cols-[20%] lg:snap-none">
         <HorizontalImageScroll
           imageSrc={kesh}
           alt={"sikh man with uncut hair symbolising kesh"}
