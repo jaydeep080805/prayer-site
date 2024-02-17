@@ -1,20 +1,11 @@
-import PropTypes from "prop-types";
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
+import HorizontalImageScroller from "../components/HorizontalImageScroller";
 import kara from "../assets/five-k's/kara.jpg";
 import kanga from "../assets/five-k's/kanga.jpg";
 import kesh from "../assets/five-k's/kesh.jpeg";
 import kacchera from "../assets/five-k's/kacchera.jpeg";
 import kirpan from "../assets/five-k's/kirpan.webp";
-
-function HorizontalImageScroll({ imageSrc, alt, name }) {
-  return (
-    <div className="bg-white snap-center p-5 dark:bg-gray-800 shadow-md h-88 rounded-md">
-      <img src={imageSrc} alt={alt} className="rounded-md w-80 h-60" />
-      <p className="flex justify-center capitalize items-center h-20">{name}</p>
-    </div>
-  );
-}
 
 function FiveK() {
   return (
@@ -55,31 +46,31 @@ function FiveK() {
       />
 
       <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[30%] xl:auto-cols-[20%] lg:snap-none">
-        <HorizontalImageScroll
+        <HorizontalImageScroller
           imageSrc={kesh}
           alt={"sikh man with uncut hair symbolising kesh"}
           name={"kesh"}
         />
 
-        <HorizontalImageScroll
+        <HorizontalImageScroller
           imageSrc={kara}
           alt={"silver kara"}
           name={"kara"}
         />
 
-        <HorizontalImageScroll
+        <HorizontalImageScroller
           imageSrc={kanga}
           alt={"wooden kanga"}
           name={"kanga"}
         />
 
-        <HorizontalImageScroll
+        <HorizontalImageScroller
           imageSrc={kacchera}
           alt={"kacchera (cotton underwear)"}
           name={"kacchera"}
         />
 
-        <HorizontalImageScroll
+        <HorizontalImageScroller
           imageSrc={kirpan}
           alt={"wooden kanga"}
           name={"kirpan"}
@@ -88,11 +79,5 @@ function FiveK() {
     </PageLayout>
   );
 }
-
-HorizontalImageScroll.propTypes = {
-  imageSrc: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-};
 
 export default FiveK;
