@@ -1,6 +1,11 @@
+// components
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
-import HorizontalImageScroller from "../components/HorizontalImageScroller";
+import HorizontalImagesForScroller, {
+  HorizontalImageScroller,
+} from "../components/HorizontalImageScroller";
+
+// images
 import kara from "../assets/five-k's/kara.jpg";
 import kanga from "../assets/five-k's/kanga.jpg";
 import kesh from "../assets/five-k's/kesh.jpeg";
@@ -9,6 +14,7 @@ import kirpan from "../assets/five-k's/kirpan.webp";
 
 function FiveK() {
   return (
+    // page text
     <PageLayout heading="five k's">
       <Section
         spanText={"Kesh (Uncut Hair) - "}
@@ -45,37 +51,38 @@ function FiveK() {
         }
       />
 
-      <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[30%] xl:auto-cols-[20%] lg:snap-none">
-        <HorizontalImageScroller
+      {/* images */}
+      <HorizontalImageScroller>
+        <HorizontalImagesForScroller
           imageSrc={kesh}
           alt={"sikh man with uncut hair symbolising kesh"}
           name={"kesh"}
         />
 
-        <HorizontalImageScroller
+        <HorizontalImagesForScroller
           imageSrc={kara}
           alt={"silver kara"}
           name={"kara"}
         />
 
-        <HorizontalImageScroller
+        <HorizontalImagesForScroller
           imageSrc={kanga}
           alt={"wooden kanga"}
           name={"kanga"}
         />
 
-        <HorizontalImageScroller
+        <HorizontalImagesForScroller
           imageSrc={kacchera}
           alt={"kacchera (cotton underwear)"}
           name={"kacchera"}
         />
 
-        <HorizontalImageScroller
+        <HorizontalImagesForScroller
           imageSrc={kirpan}
           alt={"wooden kanga"}
           name={"kirpan"}
         />
-      </div>
+      </HorizontalImageScroller>
     </PageLayout>
   );
 }
