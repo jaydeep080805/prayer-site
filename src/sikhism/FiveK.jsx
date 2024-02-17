@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
 import kara from "../assets/five-k's/kara.jpg";
@@ -8,7 +9,7 @@ import kirpan from "../assets/five-k's/kirpan.webp";
 
 function HorizontalImageScroll({ imageSrc, alt, name }) {
   return (
-    <div className="bg-white p-5 dark:bg-gray-800 shadow-md h-88 rounded-md">
+    <div className="bg-white snap-center p-5 dark:bg-gray-800 shadow-md h-88 rounded-md">
       <img src={imageSrc} alt={alt} className="rounded-md w-80 h-60" />
       <p className="flex justify-center capitalize items-center h-20">{name}</p>
     </div>
@@ -53,7 +54,7 @@ function FiveK() {
         }
       />
 
-      <div className="grid grid-flow-col auto-cols-[100%] gap-2 shadow-md overflow-x-scroll lg:w-fit">
+      <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[20%] lg:snap-none">
         <HorizontalImageScroll
           imageSrc={kesh}
           alt={"sikh man with uncut hair symbolising kesh"}
@@ -87,5 +88,11 @@ function FiveK() {
     </PageLayout>
   );
 }
+
+HorizontalImageScroll.propTypes = {
+  imageSrc: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+};
 
 export default FiveK;
