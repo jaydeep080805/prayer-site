@@ -20,7 +20,7 @@ function HorizontalImagesForScroller({ imageSrc, alt, name, text, link }) {
           </p>
 
           {/* text will only be needed if there is a name aswell */}
-          <p className="flex justify-center text-lg">
+          <p className="flex justify-center text-center text-lg">
             <em>{text}</em>
           </p>
         </>
@@ -37,7 +37,7 @@ function HorizontalImageScroller({ children }) {
 
   return (
     <div
-      className={`grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[40%] xl:auto-cols-[30%] lg:snap-none ${
+      className={`grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[40%] 2xl:auto-cols-[35%] lg:snap-none ${
         // center the images on larger screens if there is less than 3 images
         shouldCenterLaptop && "xl:justify-center"
       }

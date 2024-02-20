@@ -16,6 +16,10 @@ export default {
         200: "80rem",
         220: "90rem",
       },
+      screens: {
+        xl: "1440px", // MacBook screens
+        "2xl": "1920px", // Larger desktop screens
+      },
     },
   },
   plugins: [],
