@@ -1,11 +1,13 @@
 import Section from "../components/Section";
 import PageLayout from "../components/PageLayout";
 import ContentWithSubheading from "../components/ContentWithSubheading";
-// import HorizontalImagesForScroller, {
-//   HorizontalImageScroller,
-// } from "../components/HorizontalImageScroller";
+import HorizontalImagesForScroller, {
+  HorizontalImageScroller,
+} from "../components/HorizontalImageScroller";
 
-// import test from "../assets/five-k's/kesh.jpeg";
+import red from "../assets/turban/red-turban.png";
+import blue from "../assets/turban/blue-turban.png";
+import black from "../assets/turban/black-turban.png";
 
 // the text data
 const turbanData = [
@@ -34,9 +36,16 @@ const turbanData = [
   },
 ];
 
+const horizontalImageData = [
+  { imageSrc: red, alt: "sikh man wearing a red turban" },
+  { imageSrc: blue, alt: "sikh man wearing a blue turban" },
+  { imageSrc: black, alt: "sikh man wearing a black turban" },
+];
+
 function Turban() {
   return (
     <PageLayout heading="The Turban (Dastar) in Sikhism">
+      {/* text section */}
       {turbanData.map((item) =>
         // check if there is a subheading (only the first line won't have a subheading)
         item.subheading ? (
@@ -46,19 +55,18 @@ function Turban() {
         )
       )}
 
-      {/* <HorizontalImageScroller>
-        <HorizontalImagesForScroller
-          imageSrc={test}
-          alt={"sikh man wearing a blue turban"}
-          // name={"turban"}
-        />
-
-        <HorizontalImagesForScroller
-          imageSrc={test}
-          alt={"sikh man wearing a blue turban"}
-          // name={"turban"}
-        /> */}
-      {/* </HorizontalImageScroller> */}
+      {/* images section */}
+      <HorizontalImageScroller>
+        {horizontalImageData.map((imageData, index) => {
+          return (
+            <HorizontalImagesForScroller
+              key={index}
+              imageSrc={imageData.imageSrc}
+              alt={imageData.alt}
+            />
+          );
+        })}
+      </HorizontalImageScroller>
     </PageLayout>
   );
 }
