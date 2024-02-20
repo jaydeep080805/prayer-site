@@ -12,6 +12,7 @@ function SikhNavigationButtons() {
       <Button pageLink={"/faq"} name={"questions about sikhism"} />
 
       <Button pageLink={"/five-thiefs"} name={"five thief's"} />
+      <Button pageLink={"/phrases"} name={"phrases"} />
     </>
   );
 }
