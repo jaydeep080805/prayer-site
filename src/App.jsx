@@ -39,6 +39,8 @@ import PillarsOfSikhism from "./sikhism/PillarsOfSikhism";
 import FiveK from "./sikhism/FiveK";
 import GranthSahib from "./sikhism/GranthSahib";
 import Turban from "./sikhism/Turban";
+import FiveThief from "./sikhism/FiveThief";
+import Phrases from "./sikhism/Phrases";
 
 // events
 import SikhEventNavigation from "./sikhEvents/SikhEventNavigation";
@@ -54,7 +56,6 @@ import Diwali from "./sikhEvents/Diwali";
 import ParkashUtsav from "./sikhEvents/ParkashUtsav";
 import GurdaddiDivas from "./sikhEvents/GurdaddiDivas";
 import GuruKrishanMartyrdom from "./sikhEvents/GuruKrishanMartyrdom";
-import FiveThief from "./sikhism/FiveThief";
 
 import { Toaster } from "react-hot-toast";
 import { useEffect } from "react";
@@ -125,6 +126,7 @@ function App() {
 
             <Route path="/faq" element={<Faq />} />
             <Route path="/five-thiefs" element={<FiveThief />} />
+            <Route path="/phrases" element={<Phrases />} />
 
             {/* calendar */}
             <Route path="/calendar" element={<SikhCalendar />} />
