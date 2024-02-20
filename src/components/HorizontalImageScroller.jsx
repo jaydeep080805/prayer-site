@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import React from "react";
 
 function HorizontalImagesForScroller({ imageSrc, alt, name, text, link }) {
   return (
     // container
     <div
-      className={`flex flex-col justify-center bg-white snap-center p-5 shadow-md h-88 rounded-md dark:bg-gray-800 `}
+      className={`flex flex-col justify-center bg-white snap-center p-5 shadow-md rounded-md dark:bg-gray-800 `}
     >
       {/* image */}
       <img src={imageSrc} alt={alt} className="mx-auto rounded-md w-60 h-60" />
@@ -29,8 +30,19 @@ function HorizontalImagesForScroller({ imageSrc, alt, name, text, link }) {
 }
 
 function HorizontalImageScroller({ children }) {
+  // checks how many children are passed in
+  // if there is less than three then set this to true
+  const shouldCenterLaptop = React.Children.count(children) <= 3;
+  const shouldCenterTablet = React.Children.count(children) <= 2;
+
   return (
-    <div className="grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[30%] xl:auto-cols-[30%] lg:snap-none">
+    <div
+      className={`grid grid-flow-col auto-cols-[100%] gap-2 snap-x snap-mandatory overflow-x-scroll shadow-md lg:auto-cols-[40%] xl:auto-cols-[30%] lg:snap-none ${
+        // center the images on larger screens if there is less than 3 images
+        shouldCenterLaptop && "xl:justify-center"
+      }
+      ${shouldCenterTablet && "lg:justify-center"}`}
+    >
       {children}
     </div>
   );
