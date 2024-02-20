@@ -44,7 +44,7 @@ const horizontalImageData = [
       image: kesh,
       alt: "sikh man with uncut hair symbolising kesh",
       link: "https://en.wikipedia.org/wiki/Kesh_(Sikhism)",
-      text: "Uncut Hair, willing to accept God's gift as God intended it",
+      text: "A symbol of holiness and stress. Uncut Hair is willing to accept God's gift as God intended it",
     },
   },
   {
@@ -71,7 +71,7 @@ const horizontalImageData = [
       image: kacchera,
       alt: "kacchera (cotton underwear)",
       link: "https://en.wikipedia.org/wiki/Kacchera",
-      text: "Symbolising purity. Traditionally worn by Sikh warriors",
+      text: "Symbolising purity. Traditionally worn by Sikh warriors symbolising a willingness to be ready for battle",
     },
   },
   {
