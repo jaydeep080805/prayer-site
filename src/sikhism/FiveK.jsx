@@ -8,9 +8,11 @@ import HorizontalImagesForScroller, {
 // images
 import kara from "../assets/five-k's/kara.jpg";
 import kanga from "../assets/five-k's/kanga.jpg";
-import kesh from "../assets/five-k's/kesh.jpeg";
+// import kesh from "../assets/five-k's/kesh.jpeg";
 import kacchera from "../assets/five-k's/kacchera.jpeg";
 import kirpan from "../assets/five-k's/kirpan.webp";
+
+import keshAI from "../assets/five-k's/kesh-ai.png";
 
 // the text data for the page
 const fiveKData = [
@@ -41,10 +43,10 @@ const horizontalImageData = [
   {
     kesh: {
       name: "kesh",
-      image: kesh,
+      image: keshAI,
       alt: "sikh man with uncut hair symbolising kesh",
       link: "https://en.wikipedia.org/wiki/Kesh_(Sikhism)",
-      text: "A symbol of holiness and stress. Uncut Hair is willing to accept God's gift as God intended it",
+      text: "A symbol of holiness and strength. Uncut Hair is willing to accept God's gift as God intended it",
     },
   },
   {
